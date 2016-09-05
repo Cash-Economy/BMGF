@@ -8,8 +8,8 @@ This is the repository for work in process artifacts for Autumn 2016 "Product St
 
 ## Our Team
 
-- [Kuljot Anand](https://www.linkedin.com/in/kuljot-kj-anand-93925915), CS Candidate
-- [Aamer Hassanally](https://in.linkedin.com/in/aamer-hassanally-a067ba27), MBA Candidate
+- [Kuljot Anand](https://www.linkedin.com/in/kuljot-kj-anand-93925915) | [@kuljotanand](https://github.com/kuljotanand) | CS Candidate
+- [Aamer Hassanally](https://in.linkedin.com/in/aamer-hassanally-a067ba27)| [@AHassanally](https://github.com/AHassanally) | MBA Candidate
 - [Alan Lau](https://www.linkedin.com/in/ajtlau), MBA Candidate
-- [Johanan Ottensooser](https://au.linkedin.com/in/jottensooser), Tech LLM Candidate
+- [Johanan Ottensooser](https://au.linkedin.com/in/jottensooser) | [@oatsandsugar](https://github.com/oatsandsugar) | Tech LLM Candidate
 - [Mario Rial](https://www.linkedin.com/in/mariorial/en), CS Candidate
