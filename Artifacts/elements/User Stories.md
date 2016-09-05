@@ -1,4 +1,4 @@
-The below charts the journey of three user-types through the (system diagram)[https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/System%20Diagram.jpg).
+The below charts the journey of three user-types through the [system diagram](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/System%20Diagram.jpg).
 
 # Participant in the cash economy that wishes to engage in banking services
 1. Participant has not recieved education about banking services that may be available to her or him, and does not apply for financial products.
