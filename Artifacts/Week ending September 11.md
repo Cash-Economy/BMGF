@@ -1,3 +1,5 @@
+Our artifacts for the week:
+
 1. Individual sketches
   1. Johanan Ottensooser
   2. Aamer Hasanally
