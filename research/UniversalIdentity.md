@@ -1,4 +1,4 @@
-Draft of diferent blockchain based universal identity platforms that I've been researched for the moment.
+# Draft of diferent blockchain based universal identity platforms that I've been researched for the moment.
 
 - SolidX:
 This seems like a commercial project, you can try a demo.
