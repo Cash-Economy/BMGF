@@ -1,8 +1,7 @@
 # Summary of Key Themes from Product Sketches
 
 ## Data Wedge
-1. Inventory management tool for small-scale vendors eases friction of collecting transaction data and creates “pull” for users to digitize financial information
-Sources of data that may imply spending / saving / sales:
+1. Inventory management tool for small-scale vendors eases friction of collecting transaction data and creates “pull” for users to digitize financial information. Sources of data that may imply spending / saving / sales:
 1.1. Government
 1.1. Aggregated:
 1.1.1. Banks
