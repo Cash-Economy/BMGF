@@ -15,6 +15,9 @@ This is the repository for work in process artifacts for Autumn 2016 "Product St
 - [Mario Rial](https://www.linkedin.com/in/mariorial/en) | [@MarioRial22](https://github.com/MarioRial22) CS Candidate
 
 ## Our [Project Plan](https://docs.google.com/a/cornell.edu/spreadsheets/d/1T09RqzKAFhpwzhwkpHzgbZmC5lsfLfuER64F3gPBU5w/edit?usp=sharing)
+So far, all is going according to plan.
 
-## Sources / TL;DR
+## Bibliography / TL;DR
 * [*Article Name*](article.com) | Once Sentence Summary
+
+## Consulted Parties
