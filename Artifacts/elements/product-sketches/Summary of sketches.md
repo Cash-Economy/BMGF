@@ -1,20 +1,20 @@
 # Summary of Key Themes from Product Sketches
 
-# Data Wedge
+## Data Wedge
 * Inventory management tool for small-scale vendors eases friction of collecting transaction data and creates “pull” for users to digitize financial information
-* Sources of data that may imply spending / saving / sales:
-* * Government
-* Aggregated:
-* * Banks
-* * Lenders
-* * Billers
-* * Telcos
-* * Insurance
-* Consumers are given identity by combining 2 elements:
-* * Universal ID
-* * Public ledger of transaction (financial identity)
-* Tracking cash transactions and linking with ID
-* Using non-transactional data (utility payments, cell phone usage, value of assets) to assess user's risk to banks/ insurers/ investors
+  * Sources of data that may imply spending / saving / sales:
+    * Government
+Aggregated:
+Banks
+Lenders
+Billers
+Telcos
+Insurance
+Consumers are given identity by combining 2 elements:
+Universal ID
+Public ledger of transaction (financial identity)
+Tracking cash transactions and linking with ID
+Using non-transactional data (utility payments, cell phone usage, value of assets) to assess user's risk to banks/ insurers/ investors
 
 Education/ Advertising Wedge
 Financial health education program - Instructor-based financial education platform to educate participants with challenging financial health
