@@ -10,15 +10,11 @@
 
 It is important not to make generalizations about low-income populations, as there are significant differences in factors such as employment, education and culture across various markets. However, there are also important commonalities that may help us better understand the *financially excluded* and *financially underserved*.
 
-	Key Points:
-	+	Low-income populations considered are of working age with monthly household incomes
-		in the range of USD 200 - 500.
-	+ 	_Financially excluded_ groups do not have any access to traditional banking
-		services, while the _financially underserved_ may have traditional bank accounts yet still lack access to services such as electronic transactions, borrowing or insurance.
-	+ 	While education level beyond secondary schooling can be generally quite high,
-		information about the benefits of financial inclusion needs to be communicated more effectively.
-	+	Basic money management and financial tools are critical to ensuring positive
-		financial health in a modern economy.
+Key Points:
++ Low-income populations considered are of working age with monthly household incomes in the range of USD 200 - 500.
++ _Financially excluded_ groups do not have any access to traditional banking services, while the _financially underserved_ may have traditional bank accounts yet still lack access to services such as electronic transactions, borrowing or insurance.
++ While education level beyond secondary schooling can be generally quite high, information about the benefits of financial inclusion needs to be communicated more effectively.
++ Basic money management and financial tools are critical to ensuring positive financial health in a modern economy.
 
 Given this understanding, the best way to ensure positive financial health for low-income people is to develop products and services that promote *financial inclusion*.
 
@@ -32,12 +28,12 @@ There are several sources of data that may imply spending / saving / sales:
 	+	Peer-to-peer transactions
 	+	Person to Merchant transactions
 	+	Aggregated:
-	++	Banks
-	++	Lenders
-	++	Billers
-	++	Telcos
-	++	Insurance
-	++	Assets
+		+	Banks
+		+	Lenders
+		+	Billers
+		+	Telcos
+		+	Insurance
+		+	Assets
 
 > Using non-transactional data (utility payments, cell phone usage, value of assets) to
 > assess a user's risk to banks/ insurers/ investors is an important area of opportunity.
