@@ -24,3 +24,5 @@ So far, all is going according to plan.
 
 ## Consulted Parties
 * Dave Kim | BMGF
+* Nicola Dell | Cornell Tech
+* Chuck Whitehead | Cornell Tech
