@@ -12,7 +12,7 @@ It is important not to make generalizations about low-income populations, as the
 
 Key Points:
 + Low-income populations considered are of working age with monthly household incomes in the range of USD 200 - 500.
-+ _Financially excluded_ groups do not have any access to traditional banking services, while the _financially underserved_ may have traditional bank accounts yet still lack access to services such as electronic transactions, borrowing or insurance.
++ Financially excluded groups do not have any access to traditional banking services, while the financially underserved may have traditional bank accounts yet still lack access to services such as electronic transactions, borrowing or insurance.
 + While education level beyond secondary schooling can be generally quite high, information about the benefits of financial inclusion needs to be communicated more effectively.
 + Basic money management and financial tools are critical to ensuring positive financial health in a modern economy.
 
