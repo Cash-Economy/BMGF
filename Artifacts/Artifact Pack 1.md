@@ -5,4 +5,4 @@ Our artifacts for the week:
 1. [User Stories](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/User%20Stories.md)
 
 
-[*Weekly update*](https://github.com/Cash-Economy/BMGF/blob/master/Weekly-Status-Report/8.29%20to%209.4)
+[*Weekly update*](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/Status-Report/Status%20Report%201)
