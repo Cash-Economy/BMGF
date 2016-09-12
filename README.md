@@ -23,4 +23,4 @@ So far, all is going according to plan.
   * [Mobile Money](https://www.ideo.org/project/gates-foundation) | Gates Foundation + Airtel Tanzania on kiosk based bank-like products (similar to other mobile money systems). Focused on redisigning the kiosk experience.
 
 ## Consulted Parties
-* Dave
+* Dave Kim | BMGF
