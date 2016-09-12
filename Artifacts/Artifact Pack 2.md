@@ -18,5 +18,5 @@ Our artifacts for the week:
 2. [Narrative v1](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/Narrative%20v1.md)
 3. Scrum Master --> Aamer Hassanally
 
-*Status Report*
+[*Status Report*](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/Status-Report/Status%20Report%202.md)
 
