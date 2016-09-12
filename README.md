@@ -18,6 +18,9 @@ This is the repository for work in process artifacts for Autumn 2016 "Product St
 So far, all is going according to plan.
 
 ## Bibliography / TL;DR
-* [*Article Name*](article.com) | Once Sentence Summary
+* [*Ideo.org*](https://www.ideo.org/programs/financial_health) | Mobile money + financial health services. Note the following projects:
+  * [Moneythink](https://www.ideo.org/project/moneythink-mobile) | Smartphone "good habits" app for smartphones designed for low income teeneagers.
+  * [Mobile Money](https://www.ideo.org/project/gates-foundation) | Gates Foundation + Airtel Tanzania on kiosk based bank-like products (similar to other mobile money systems). Focused on redisigning the kiosk experience.
 
 ## Consulted Parties
+* Dave
