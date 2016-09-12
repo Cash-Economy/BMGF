@@ -28,12 +28,12 @@ There are several sources of data that may imply spending / saving / sales:
 + Peer-to-peer transactions
 + Person to Merchant transactions
 + Aggregated:
-+ 	Banks
-+ 	Lenders
-+ 	Billers
-+ 	Telcos
-+ 	Insurance
-+ 	Assets
+  + 	Banks
+  + 	Lenders
+  + 	Billers
+  + 	Telcos
+  +  	Insurance
+  + 	Assets
 
 > Using non-transactional data (utility payments, cell phone usage, value of assets) to
 > assess a user's risk to banks/ insurers/ investors is a potential area of opportunity.
