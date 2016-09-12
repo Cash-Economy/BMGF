@@ -24,19 +24,19 @@ Given this understanding, the best way to ensure positive financial health for l
 One of the primary obstacles to financial inclusion is the lack of reliable, centralized and structured financial data about low-income people. Aggregating and proessing these data can better enable various fucntions of banking and non-banking service providers such as credit scoring, risk assessment and structuring loan and insurance products.
 
 There are several sources of data that may imply spending / saving / sales:
-	+	Government (Unique Identification)
-	+	Peer-to-peer transactions
-	+	Person to Merchant transactions
-	+	Aggregated:
-		+	Banks
-		+	Lenders
-		+	Billers
-		+	Telcos
-		+	Insurance
-		+	Assets
++ Government (Unique Identification)
++ Peer-to-peer transactions
++ Person to Merchant transactions
++ Aggregated:
++ 	Banks
++ 	Lenders
++ 	Billers
++ 	Telcos
++ 	Insurance
++ 	Assets
 
 > Using non-transactional data (utility payments, cell phone usage, value of assets) to
-> assess a user's risk to banks/ insurers/ investors is an important area of opportunity.
+> assess a user's risk to banks/ insurers/ investors is a potential area of opportunity.
 
 Still, complete and official records may be unavailable for those operating in a cash-based economy. Strong social norms around transacting in cash and limited merchant acceptance of digital payments create friction around digitization and collection of data.
 
