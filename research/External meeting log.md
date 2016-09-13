@@ -1,6 +1,6 @@
 # Meeting log
 
-## 12 September -- Meeting with Nicola Dell
+## 12 September: Meeting with Nicola Dell
 
 - Consider looking into:
 	- Client onboarding
