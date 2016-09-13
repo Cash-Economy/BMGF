@@ -47,7 +47,7 @@ Still, complete and official records may be unavailable for those operating in a
 
 ## Education and Marketing
 
-Another prerequisite to financial inclusion is sufficent education amongst low-income people about its benefits and about the usage of varoious money management and financial tools. 
+Another prerequisite to financial inclusion is sufficent education amongst low-income people about its benefits and about the usage of various money management and financial tools. 
 
 > Financial health education program - Instructor-based financial education platform to
 > educate participants with challenging financial health
