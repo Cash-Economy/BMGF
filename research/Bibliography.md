@@ -4,7 +4,7 @@
   * [Moneythink](https://www.ideo.org/project/moneythink-mobile) | Smartphone "good habits" app for smartphones designed for low income teeneagers.
   * [Mobile Money](https://www.ideo.org/project/gates-foundation) | Gates Foundation + Airtel Tanzania on kiosk based bank-like products (similar to other mobile money systems). Focused on redisigning the kiosk experience.
 
-* [*US Financial Diaries*](http://www.usfinancialdiaries.org) | One-year longitudinal study of 235 low- to mid-income households' cash flow and financial streams:
+* [*US Financial Diaries*](http://www.usfinancialdiaries.org) | One-year longitudinal study of 235 low- to mid-income households' cash flows and financial data:
   * [Household Profiles](http://www.usfinancialdiaries.org/households) | User sketches of various LMI families
   * [83 Charts](http://www.usfinancialdiaries.org/83-charts) | Visualization of data set.
    * Income and expenses are more volatile as income-level decreases
