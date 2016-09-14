@@ -16,6 +16,8 @@
 
 - Note that cash flow patterns for low-income segment are similar across markets, characterized by volatility and multiple sources, among other things
 
+- Academic and feild studies have indicated that education/ financial literacy does not correlate strongly with better financial health
+
 - Re-direct on Narrative: In the US, even with well-developed financial infrastructure, there are user groups who are financially excluded. How might we develop tools to improve financial health in this context?
 
-- Next steps: Identify and investigate issues of specific user group(s) in US to refine user stories and product sketches.
+- Next steps: Identify and investigate issues of specific user group(s) in US to refine user stories and product sketches
