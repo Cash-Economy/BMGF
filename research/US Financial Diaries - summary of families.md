@@ -38,3 +38,22 @@
   - she does not know or understand the interest payments of different cards that she utilises.
 - She is held back from pursuing higher income (through further education) by the uncertainty of her present financial position.
 - When she has a "good month", she is unable to use it to shore up her financial position because she contributes almost the entire excess to her family, or to pay down the higher interest debts she has.
+
+# <p>Learnings from <i><a href="http://www.usfinancialdiaries.org/house2-oh">The Johnsons: Working Hard But Still Struggling</a></i> <href=>
+
+1. Both Sarah and Sam are earning parents but earn very unpredictable and volatile incomes from part-time jobs
+  - they have three kids: Amy (8 y/o), Matthew (20 y/o), Anne (20 y/o)
+2. Sarah manages the finances and has a method for covering the recurring expenses, however, the family is completely unprepared for one-time expenses (to do with health, home repair, etc.)
+3. Total monthly family income that is needed to meet minimum set of expenses is made up of several sources, as opposed to one or two consistent sources. The sources are:
+  - Sam's sales incomes
+  - Sarah's full-time income
+  - Sam's call center income (part time - very volatile)
+  - Sarah's education grant
+  - Matthew's scholarship
+  - Child support
+  - Sam's coaching income (part time)
+  - Sarah's secretary income (part-time)
+  - other (gifts, help, etc)
+4. The family is surviving due to cash injections from family at various points. Sarah's mom loaned $6,000 to the family and does not expect for it to be returned.
+5. Currently, the unexpected expenses are covered using credit card debt, and the family also has a mortgage on the house which has not appreciated whatsoever since its purchase.
+6. <b>Overall</b>, Johnson's have a negative net worth and a lot of debt (esp credit card debt) that keeps growing with every irregular event. They would not be able to survive without help from family.
