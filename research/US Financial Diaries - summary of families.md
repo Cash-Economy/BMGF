@@ -1,4 +1,4 @@
-# 1. Mateo And Lucia: Thriving But Still Vulnerable In The U.S.
+# 1 Mateo And Lucia: Thriving But Still Vulnerable In The U.S.
 [*Link*](http://www.usfinancialdiaries.org/house10-ny)
 
 ## High level introduction
@@ -21,7 +21,7 @@
 - They do not use any credit facilities.
 - Their wariness of the financial sector, and lack of use of formal credit, means that they are not able to establish a formal credit history.
 
-# 2. Elena Navarro: Getting Through A Tough Year
+# 2 Elena Navarro: Getting Through A Tough Year
 [*Link*](http://www.usfinancialdiaries.org/house9-ca)
 
 ## High level introduction
