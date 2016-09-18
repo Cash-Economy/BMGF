@@ -1,4 +1,4 @@
-# Mateo And Lucia: Thriving But Still Vulnerable In The U.S.
+# 1. Mateo And Lucia: Thriving But Still Vulnerable In The U.S.
 [*Link*](http://www.usfinancialdiaries.org/house10-ny)
 
 ## High level introduction
@@ -21,4 +21,20 @@
 - They do not use any credit facilities.
 - Their wariness of the financial sector, and lack of use of formal credit, means that they are not able to establish a formal credit history.
 
+# 2 Elena Navarro: Getting Through A Tough Year
+[*Link*](http://www.usfinancialdiaries.org/house9-ca)
 
+## High level introduction
+
+- Elena is well educated (completed her Bachelors, and considering a JD). 
+- She works in mental health, with a steady, high-ish income. However, her job had required her to outlay approximately 15% of her monthly salary in the form of upfront payment for supplies. She wasn't able to keep this going, and quit the job, having a period of unemployment before working on a similar, less well paying job. That job was stressful, so, after another brief period of unemployment, she transferred to an even lesser paying job that she remained at (which paid less than the original job inclusive of the expense outlay).
+- She is sophisticated financially, and uses different credit cards for different ends in her day-to day life. Most of these she pays off on time. One of her larger expenses was on a card that she took out for the purpose of that expense, and has a non interest paying period that she is taking advantage of.
+- She also regularly takes out familial loans, both explicit from her sister, and implicit, in the form of living without rent.
+
+## Notes
+
+- Her financial sophistication helps her balance financial shocks, but is also a inefficiently used crutch:
+  - she sometimes is required to pay overdrafts where she "strategically" paid bills by checque"; &
+  - she does not know or understand the interest payments of different cards that she utilises.
+- She is held back from pursuing higher income (through further education) by the uncertainty of her present financial position.
+- When she has a "good month", she is unable to use it to shore up her financial position because she contributes almost the entire excess to her family, or to pay down the higher interest debts she has.
