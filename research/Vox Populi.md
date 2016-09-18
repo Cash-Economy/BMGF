@@ -2,7 +2,7 @@
 
 Location | *Bushwick / Brooklyn*
 
-Occupation | *Casual work for laundromats; day labourer; chicken grower*
+Occupation | *Casual work for laundromats; day labourer; chicken farmer*
 
 Age | *~60*
 
@@ -13,6 +13,7 @@ Financial notes:
   - received food stamps through a card-based benefit system.
 - However, his majour income is paid in cash by his employers, and his expenses are largely in cash, so most of his financial life is outside of the formal system.
 - The chickens that he tends provide eggs that he sells to neighbors and he eats.
+- No access to credit.
 
 Other notes: 
 - Beloved by his community, who he does random bits of work for.
