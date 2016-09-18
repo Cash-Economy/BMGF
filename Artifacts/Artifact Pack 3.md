@@ -8,10 +8,10 @@ Our artifacts for the week:
 
 ## Process & Team Management
 
-1. Development Process
-2. Progress Board
+1. [Development Process](https://github.com/Cash-Economy/BMGF/blob/master/process/Weekly%20development%20process.md)
+2. [Progress Board](https://github.com/Cash-Economy/BMGF/issues)
 3. Team Agreement (Goals)
-4. Weekly Progress Log
+4. [Weekly Progress Log](https://github.com/Cash-Economy/BMGF/blob/master/process/Weekly%20Progress%20Log.md)
 
 [*Status Report*]
 
