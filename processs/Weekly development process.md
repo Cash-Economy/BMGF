@@ -1,4 +1,6 @@
     | What's up
+----|:-------------:
+
 Tue | class then {retro + plan}
 Wed | independent work
 Thu | independent work
