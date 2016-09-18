@@ -18,3 +18,4 @@ Financial notes:
 Other notes: 
 - Beloved by his community, who he does random bits of work for.
 - His neighbors sometimes barter with him for work / eggs / poultry (though this is informal - he woudl give them eggs one day, they would give him groceries or work another day).
+- No private insurance of any type.
