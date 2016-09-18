@@ -5,7 +5,7 @@
   * [Mobile Money](https://www.ideo.org/project/gates-foundation) | Gates Foundation + Airtel Tanzania on kiosk based bank-like products (similar to other mobile money systems). Focused on redisigning the kiosk experience.
 
 * [*US Financial Diaries*](http://www.usfinancialdiaries.org) | One-year longitudinal study of 235 low- to mid-income households' cash flows and financial data:
-  * [Household Profiles](http://www.usfinancialdiaries.org/households) | User sketches of various LMI families | Our summary available [here](link.com)
+  * [Household Profiles](http://www.usfinancialdiaries.org/households) | User sketches of various LMI families | Our summary available [here](https://github.com/Cash-Economy/BMGF/blob/master/research/US%20Financial%20Diaries%20-%20summary%20of%20families.md)
   * [83 Charts](http://www.usfinancialdiaries.org/83-charts) | Visualization of data sets
     * Income and expenses are more volatile as income-level decreases
     * LMIs characterized by cash flows from multiple sources
