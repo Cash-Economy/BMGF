@@ -4,6 +4,8 @@ Location | *Bushwick / Brooklyn*
 
 Occupation | *Casual work for laundromats; day labourer; chicken grower*
 
+Age | *~60*
+
 Financial notes:
 
 - Has some links with formal financial sector:
