@@ -1,8 +1,3 @@
-Summary:
-
-![group 1](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Families%20(1).jpg?raw=true "US Financial Diaries 1")
-![group 2](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Families%20(2).jpg?raw=true "US Financial Diaries 2")
-
 # 1 Mateo And Lucia: Thriving But Still Vulnerable In The U.S.
 [*Link*](http://www.usfinancialdiaries.org/house10-ny)
 
@@ -62,3 +57,8 @@ Summary:
 4. The family is surviving due to cash injections from family at various points. Sarah's mom loaned $6,000 to the family and does not expect for it to be returned.
 5. Currently, the unexpected expenses are covered using credit card debt, and the family also has a mortgage on the house which has not appreciated whatsoever since its purchase.
 6. <b>Overall</b>, Johnson's have a negative net worth and a lot of debt (esp credit card debt) that keeps growing with every irregular event. They would not be able to survive without help from family.
+
+# Summary:
+
+![group 1](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Families%20(1).jpg?raw=true "US Financial Diaries 1")
+![group 2](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Families%20(2).jpg?raw=true "US Financial Diaries 2")
