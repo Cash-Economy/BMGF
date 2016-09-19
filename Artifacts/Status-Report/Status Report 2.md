@@ -2,7 +2,7 @@ Hi Dave –
 
 We look forward to speaking with you on Tuesday at 11AM PST.
 
-Below is our status report for the week of 9/5 to 9/11. All of the artifacts have been made public and can be found in our GitHub page:https://github.com/Cash-Economy/BMGF
+Below is our status report for the week of 9/5 to 9/11. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
 
 
 
