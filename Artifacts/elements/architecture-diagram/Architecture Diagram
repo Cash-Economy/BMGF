@@ -1,7 +1,7 @@
 #Architecture Diagram
 
-## Scaffolding
-
+## Scaffolding (open source reuse, core technology)
+![Architecture Diagram]( "Version 1 of Architecture Diagram")
 
 ## Ratholes:
 - Trying to define each and every potential business logic of the system
