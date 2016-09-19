@@ -1,0 +1,1 @@
+These are the product sketches we made after reading the [financial diaries](https://github.com/Cash-Economy/BMGF/blob/master/research/US%20Financial%20Diaries%20-%20summary%20of%20families.md) and interviewing users.
