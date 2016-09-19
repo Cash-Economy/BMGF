@@ -7,4 +7,4 @@
     - Identify key players: competition, collaborators & enablers
     - Network with others developing products & services for financial inclusion
 - Practice the product development techniques and frameworks taught in Studio
-- Learn from each member of a highly intelligent and diverse team
+- Learn from each member of a highly accomplished and diverse team
