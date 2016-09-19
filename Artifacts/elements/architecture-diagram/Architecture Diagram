@@ -1,7 +1,7 @@
 #Architecture Diagram
 
 ## Scaffolding (open source reuse, core technology)
-![Architecture Diagram]( "Version 1 of Architecture Diagram")
+![Architecture Diagram](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/architecture-diagram/architecture%20diagram%20v1.jpeg "Version 1 of Architecture Diagram")
 
 ## Ratholes:
 - Trying to define each and every potential business logic of the system
