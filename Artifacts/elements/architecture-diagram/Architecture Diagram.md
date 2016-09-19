@@ -23,7 +23,7 @@
 - Higher-level analytics depend on having collected data from multiple user groups
     - Avoid this rathole
 - Lack of real user data
-    - Use dummy data based on [initial research findings]()
+    - Use dummy data based on [initial research findings](https://github.com/Cash-Economy/BMGF/tree/master/research/savings-groups-data)
 - Rules and governance
     - Identify one loosely defined set of governance rules for prototype
     - Single-leader model, core functionality (use case) will be for emergency disbursements
