@@ -73,6 +73,13 @@
 5. Currently, the unexpected expenses are covered using credit card debt, and the family also has a mortgage on the house which has not appreciated whatsoever since its purchase.
 6. <b>Overall</b>, Johnson's have a negative net worth and a lot of debt (esp credit card debt) that keeps growing with every irregular event. They would not be able to survive without help from family.
 
+# Rita Douglas: 
+[*Link*]()
+
+## Notes
+
+
+
 # Summary:
 
 ![group 1](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Families%20(1).jpg?raw=true "US Financial Diaries 1")
