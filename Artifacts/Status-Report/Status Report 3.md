@@ -17,16 +17,15 @@ Below is our status report for the week of 9/11 to 9/118. All of the artifacts h
   * Each member read a subset of the available US Financial Diaries source material, summarised it and (presented their cases to the team)[https://github.com/Cash-Economy/BMGF/blob/master/research/US%20Financial%20Diaries%20-%20summary%20of%20families.md).
   * As a team, we reflected on the data, and had the following key learnings:
 
->* There is no binary distinction between cash and non-cash economy actors.
+>1.  There is no binary distinction between cash and non-cash economy actors.
+>2. Actors who participate primarily in the cash economy tend to have some exposure to the non-cash economy - usually in the form of a chequing account that wages are paid into.
 >
->* Actors who participate primarily in the cash economy tend to have some exposure to the non-cash economy - usually in the form of a chequing account that wages are paid into.
->
->* Persons appear to be split in the reason for non-participation (or under-participation) in the formal finance sector:
+>3. Persons appear to be split in the reason for non-participation (or under-participation) in the formal finance sector:
 >  * preference against credit (this is a difficult to amend preference); or
 >  * lack of financial history; or
 >  * other legal reasons.
 >
->* There appear to be two causes of financial instability:
+>4. There appear to be two causes of financial instability:
 >  * deviation in income   <-- this may be a problem area that can be tackled
 >  * deviation in expenses <-- this is difficult to control for, as they are often externalised
 
