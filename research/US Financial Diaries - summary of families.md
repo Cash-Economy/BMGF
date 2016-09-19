@@ -96,6 +96,21 @@
 - SOCIAL NETWORK is critical to resilience
 
 
+# Mike Smith: Keeping Control by Relying on Cash
+[*Link*](http://www.usfinancialdiaries.org/house4-ky)
+
+## High-level introduction
+- Single, mid-50’s lives in small town in Kentucky
+- Income: works as maintenance man at local company = $960 - $1665 depending on overtime
+- Controls spending well, but lacks additional income opportunities
+  - Operates mainly in cash, average transaction value = $10
+  - Larger expenses are mostly unexpected for him: taxes, insurance, repairs & maintenance
+- When money is low 2 modes of recourse: take out money order or postpone bill payment
+- Assets: house ($50k), 10 vending machines unused, cash holdings at home ($4k), savings account ($1.7k) which he opened to avoid large check-cashing fee
+
+## Notes
+- Mike is “STRICTLY AGAINST BORROWING”
+- Underbanked by choice - believes that institutions undermine control and transparency of cash holdings
 
 
 # Summary:
