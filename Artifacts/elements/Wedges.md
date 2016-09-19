@@ -1,4 +1,5 @@
 Our wedges fall within the structures of our [System Diagram](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/System%20Diagram.jpg), and should be read in that context. However, for the sake of clarity, our wedges are outlined below:
+
 |-----|
 | 3. **FORMALISING informal structures**: How might we formalise and digitise otherwise informal financial arrangements to make them more effective for their users? | 
 |---|
