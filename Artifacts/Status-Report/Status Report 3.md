@@ -34,7 +34,9 @@ Below is our status report for the week of 9/11 to 9/118. All of the artifacts h
 
 * We reiterated on our [product sketches](https://github.com/Cash-Economy/BMGF/tree/master/Artifacts/elements/product-sketches/post-research) to reflect the above research.
 * We came up with a "wedge" that could be a place for us to start with product design and narrative design:
+
 > How might we formalise and digitise otherwise informal financial arrangements to make them more effective for their users.
+
 * We mocked up a first draft product storyboard to reflect the above:
 ![Storyboard](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/storyboard/Storyboard%20v1.jpg?raw=true "Version 1 of Storyboard")
 * We drafted an architecture diagram for the same.
