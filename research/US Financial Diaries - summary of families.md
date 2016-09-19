@@ -1,3 +1,18 @@
+# Primary lessons learned:
+
+* There is no binary distinction between cash and non-cash economy actors.
+
+* Actors who participate primarily in the cash economy tend to have some exposure to the non-cash economy - usually in the form of a chequing account that wages are paid into.
+
+* Persons appear to be split in the reason for non-participation (or under-participation) in the formal finance sector:
+  * preference against credit (this is a difficult to amend preference); or
+  * lack of financial history; or
+  * other legal reasons.
+
+* There appear to be two causes of financial instability:
+  * deviation in income   <-- this may be a problem area that can be tackled
+  * deviation in expenses <-- this is difficult to control for, as they are often externalised
+
 # 1 Mateo And Lucia: Thriving But Still Vulnerable In The U.S.
 [*Link*](http://www.usfinancialdiaries.org/house10-ny)
 
