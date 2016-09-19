@@ -21,9 +21,9 @@ Below is our status report for the week of 9/11 to 9/118. All of the artifacts h
   * We [interviewed](https://github.com/Cash-Economy/BMGF/blob/master/research/Vox%20Populi.md) people in our market base, to better understand their frictions to market.
 
 * We reiterated on our [product sketches](https://github.com/Cash-Economy/BMGF/tree/master/Artifacts/elements/product-sketches/post-research) to reflect the above research.
-* We came up with a "wedge" that could be a place for us to start with product design and narrative design:
+* Reflecting on our [key learnings](https://github.com/Cash-Economy/BMGF/blob/master/research/US%20Financial%20Diaries%20-%20summary%20of%20families.md#primary-lessons-learned) from the same, we came up with a "wedge" that could be a place for us to start with product design and narrative design:
 
-> How might we formalise and digitise otherwise informal financial arrangements to make them more effective for their users.
+> How might we formalise and digitise otherwise informal financial arrangements to make them more effective for their users?
 
 * We mocked up a first draft product storyboard to reflect the above:
 ![Storyboard](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/storyboard/Storyboard%20v1.jpg?raw=true "Version 1 of Storyboard")
