@@ -13,7 +13,7 @@
   * deviation in income   <-- this may be a problem area that can be tackled
   * deviation in expenses <-- this is difficult to control for, as they are often externalised
 
-# 1 Mateo And Lucia: Thriving But Still Vulnerable In The U.S.
+# Mateo And Lucia: Thriving But Still Vulnerable In The U.S.
 [*Link*](http://www.usfinancialdiaries.org/house10-ny)
 
 ## High level introduction
@@ -36,7 +36,7 @@
 - They do not use any credit facilities.
 - Their wariness of the financial sector, and lack of use of formal credit, means that they are not able to establish a formal credit history.
 
-# 2 Elena Navarro: Getting Through A Tough Year
+# Elena Navarro: Getting Through A Tough Year
 [*Link*](http://www.usfinancialdiaries.org/house9-ca)
 
 ## High level introduction
