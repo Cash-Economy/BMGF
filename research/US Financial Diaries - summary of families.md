@@ -1,3 +1,8 @@
+Summary:
+
+![group 1](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Families%20(1).jpg?raw=true "US Financial Diaries 1")
+![group 2](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Families%20(2).jpg?raw=true "US Financial Diaries 2")
+
 # 1 Mateo And Lucia: Thriving But Still Vulnerable In The U.S.
 [*Link*](http://www.usfinancialdiaries.org/house10-ny)
 
