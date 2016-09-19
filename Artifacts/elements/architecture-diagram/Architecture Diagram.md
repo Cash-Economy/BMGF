@@ -8,7 +8,7 @@
 ![Architecture Diagram](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/architecture-diagram/architecture%20diagram%20v1.jpeg "Version 1 of Architecture Diagram")
 
 ## Ratholes:
-- Trying to define each and every potential business logic of the system
+- Trying to define each and every potential business logic of the system (avoid by relying on self-selection)
     - This requires too many assumptions about user preferences
     - This assumes a singular set of preferences across user groups
 - Trying to design higher-level analytics functionality (see dependency)
