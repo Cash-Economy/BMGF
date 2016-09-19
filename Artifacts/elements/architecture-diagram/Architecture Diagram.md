@@ -1,8 +1,8 @@
 #Architecture Diagram
 
-> ## Narrative
+> ### Narrative
 > How might we formalize informal savings pools to make them more useful for their members?
-> See [User Story]()
+> See [User Story](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/storyboard/Storyboard%20v1.jpg)
 
 ## Scaffolding (open source reuse, core technology)
 ![Architecture Diagram](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/architecture-diagram/architecture%20diagram%20v1.jpeg "Version 1 of Architecture Diagram")
