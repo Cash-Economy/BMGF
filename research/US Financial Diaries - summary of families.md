@@ -73,10 +73,28 @@
 5. Currently, the unexpected expenses are covered using credit card debt, and the family also has a mortgage on the house which has not appreciated whatsoever since its purchase.
 6. <b>Overall</b>, Johnson's have a negative net worth and a lot of debt (esp credit card debt) that keeps growing with every irregular event. They would not be able to survive without help from family.
 
-# Rita Douglas: 
-[*Link*]()
+# Rita Douglas: Getting By With Help From Friends
+[*Link*](http://www.usfinancialdiaries.org/house6-oh)
+
+## High-level introduction
+- Lives in marginal neighborhood in Cincinnati, OH
+- Income:
+  - from pension (25 years at local utility company) = $1165/ month
+  - recently worked at local charity, but left to avoid taxation from additional income source = $350-700/ month
+  - contributions from family, friends and local pantry = $50 - 250/ month
+  - No SS payments. When they begin next year, will nearly double her monthly income
+- Expenses:
+  - Bills cannot be paid in full - NEEDS ASSISTANCE like energy assistance to smoothen monthly payments
+  - 75% + of monthly expenses occur in the first half
+  - Spending buckets: rent, monthly bills, medical, ‘sin’ goods, food is the most variable
+- Assets = $105 savings
+- Debt = $2000 loan, mostly unpaid. 2 credit cards, both carrying balances
 
 ## Notes
+- Bills currently paid by bank check or e-check over the phone
+- Needs BUDGETING, but she has no expectation of changing habits
+- SOCIAL NETWORK is critical to resilience
+
 
 
 
