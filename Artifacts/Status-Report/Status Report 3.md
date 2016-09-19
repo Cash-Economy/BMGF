@@ -42,7 +42,15 @@ Below is our status report for the week of 9/11 to 9/118. All of the artifacts h
 
 ## The week ahead
 
+* We would like to discuss our idea with you broadly, to ensure that development effort is not wasted.
+* On Thursday / Friday, we are embarking on our first sprint, and will stand-up a version of the product described in the storyboard above.
+* We will continue our paper and personal research into our market sector.
+
 ## Key learnings from retro
+
+* It is dangerous to make assumptions about users without properly investegating them (see key learnings from the above).
+* Work before our "pivot" to the US translated quite smoothly, validating the idea that learnings from the US would translate back.
 
 ## Risks
 
+* After the development work on Thurdsay and Friday, there will be *sunk time* into the idea as formulated above, making us more "sticky" to that idea. We should consciously disregard such stickiness.
