@@ -3,7 +3,20 @@ Below is our status report for the week of 9/11 to 9/118. All of the artifacts h
 
 ## Recap on action items from [our conversation](https://github.com/Cash-Economy/BMGF/blob/master/research/External%20meeting%20log.md):
 
-@AJTLAU to populate
+•	Help connect us to the following resources:
+  o	CSFI
+  o	Robinhood
+  o	Ideo.org
+  o	Professor Jonathan Morduch from NYU – Co-Principal of US Financial Diaries  
+•	Agree on a bi-weekly meeting time
+  o	Does the same time as our initial meeting, Tuesday 11am to 12pm PT (2-3pm ET), work for you?
+•	Set up a in person meeting for the week of 9/30
+  o	You mentioned you will not be available earlier in the week. Which days and times work best for you?
+  o	Our schedules are generally open on Wednesday/Thursday evenings and Friday afternoons
+•	Provide you availability for the October 5th workshop in DC
+  o	Three of our team members will be available to attend (Johanan, Aamer and me)
+  o	Most likely do a same day trip from NYC to DC
+  o	Can you please send us details to the event and how we can get involved?
 
 ## Challenge question
 
