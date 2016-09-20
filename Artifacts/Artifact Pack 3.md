@@ -2,7 +2,7 @@ Our artifacts for the week:
 
 ## Product Standup
 
-3. [Architecture Diagram](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/architecture-diagram/Architecture%20Diagram.md)
+3. [Architecture Diagram](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/Architecture%20Diagram.md)
 
 ## Process & Team Management
 
