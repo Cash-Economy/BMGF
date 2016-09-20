@@ -9,7 +9,7 @@ Our artifacts for the week:
   3. [Kuljot Anand](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/individual/KJ%20sketches.JPG)
   4. [Alan Lau](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/individual/AL%20sketch%20(indiv)%20-%2009-09-2016.JPG)
   5. [Mario Rial](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/individual/MR%20sketch%20(indiv).jpeg)
-2. [Summary of Sketches](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/Summary%20of%20sketches.md)
+2. [Summary of Sketches](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/Summary%20of%20Sketches.md)
 3. [Selected Sketches] (https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/Selected%20Sketches.jpeg)
 
 ## Other
