@@ -1,0 +1,4 @@
+# Kuljot goals
+1. Create a viable working prototype and test with real users. Validate all assumptions.
+2. Research the problem and determine root cause for use of cash -- for one particular segment of the population as determined by the tam
+3. Have fun while learning new skills from others in my team.
