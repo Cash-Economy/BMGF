@@ -54,7 +54,7 @@
 - She is held back from pursuing higher income (through further education) by the uncertainty of her present financial position.
 - When she has a "good month", she is unable to use it to shore up her financial position because she contributes almost the entire excess to her family, or to pay down the higher interest debts she has.
 
-# <p>Learnings from <i><a href="http://www.usfinancialdiaries.org/house2-oh">The Johnsons: Working Hard But Still Struggling</a></i> <href=>
+### <p>Learnings from <i><a href="http://www.usfinancialdiaries.org/house2-oh">The Johnsons: Working Hard But Still Struggling</a></i>
 
 1. Both Sarah and Sam are earning parents but earn very unpredictable and volatile incomes from part-time jobs
   - they have three kids: Amy (8 y/o), Matthew (20 y/o), Anne (20 y/o)
@@ -72,6 +72,17 @@
 4. The family is surviving due to cash injections from family at various points. Sarah's mom loaned $6,000 to the family and does not expect for it to be returned.
 5. Currently, the unexpected expenses are covered using credit card debt, and the family also has a mortgage on the house which has not appreciated whatsoever since its purchase.
 6. <b>Overall</b>, Johnson's have a negative net worth and a lot of debt (esp credit card debt) that keeps growing with every irregular event. They would not be able to survive without help from family.
+
+
+### Learnings from <i><a href="http://www.usfinancialdiaries.org/house1-ca"> The Rodriguez Family: Extended Family Strives to Get Ahead</a><i>
+
+1. This study is centered around a multi-generational family -- Maria (60 y/o), Dean (75), Regina -- Maria's mother (83), Martin (36) and Daniel (34) -- Maria's sons.
+2. Very positive financial planning story. In general the family earns more than they spend, but the income sources are spread over all three generations -- the bulk of it coming from Maria's salary and Daniel's salary. Dean and Regina's social security are contributors too.
+3. However, Daniel wants to marry his fiance, move out and buy his own house. He's been successful in saving plenty for his down payments because his parents have supported most of his living costs thus far. Similarly, Regina wants to live on her own as well. The family will lost two sources of income.
+4. Martin has has mental and physical issues and fared the worst out of the entire family. Maria and Dean are unsure if they can continue their lifestyle if they lose two incomes but their fixed expenses stay the same.
+5. Thankfully, their biggest variable expenses are restaurants and groceries -- both of which can be controlled with some changes.
+6. <b>Overall</b>, the family should be OK even though their family savings will decrease significantly. But this story goes to show that strong financial regimen (and perhaps living as a nuclear family) leads to a successful financial outcomes for all.
+
 
 # Rita Douglas: Getting By With Help From Friends
 [*Link*](http://www.usfinancialdiaries.org/house6-oh)
