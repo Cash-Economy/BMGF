@@ -1,4 +1,4 @@
-# Product Narrative
+# Summary of Product Sketches
 
 > ### Gates Foundation Challenge
 >
