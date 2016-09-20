@@ -20,7 +20,7 @@ Below is our status report for the week of 9/11 to 9/118. All of the artifacts h
 
 * After our discussion with you, we shifted our focus from developing countries to participants in the cash economy from the US (the learnings from which may be more widely applicable).
 * At your suggestion, we then conducted some research:
-  * Each member read a subset of the available US Financial Diaries source material, summarised it and (presented their cases to the team)[https://github.com/Cash-Economy/BMGF/blob/master/research/US%20Financial%20Diaries%20-%20summary%20of%20families.md).
+  * Each member read a subset of the available US Financial Diaries source material, summarised it and [presented their cases to the team](https://github.com/Cash-Economy/BMGF/blob/master/research/US%20Financial%20Diaries%20-%20summary%20of%20families.md).
   * We [interviewed](https://github.com/Cash-Economy/BMGF/blob/master/research/Vox%20Populi.md) people in our market base, to better understand their frictions to market.
 
 * We reiterated on our [product sketches](https://github.com/Cash-Economy/BMGF/tree/master/Artifacts/elements/product-sketches/post-research) to reflect the above research.
