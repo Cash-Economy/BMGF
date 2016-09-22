@@ -18,3 +18,4 @@
   * [Consumer Segments](http://www.cfsinnovation.com/financial-health-segments) | LMI Americans are classified into 4 segments, each with different financial habits and aspirations; reports at link
   * [Measuring Financial Health](http://www.cfsinnovation.com/Document-Library/Eight-Ways-to-Measure-Financial-Health-(1)) | Identifies 8 indicators of financial health, with recommended benchmarks, proxies and measurement challenges; useful starting point for internal KPIs
 
+* [Times.com](http://business.time.com/2012/11/20/why-so-many-americans-dont-have-bank-accounts/) Why so many americans don't have a bank account?
