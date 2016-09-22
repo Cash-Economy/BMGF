@@ -6,7 +6,6 @@ See [Annotated Paper](https://github.com/Cash-Economy/BMGF/blob/master/research/
 * Low income households have, on average, 2.5 months a year where their incomes are more than one standard deviation away from their average incomes.
 * 18% of households have an income variance of 60-90% of their monthly income.
 * Spikes in spending, in 61% of cases, are not correlated with increases in income.
-
 * Income volatility is negatively correlated with income.
 * Income sources are covariant.
 * The biggest cause of variance for the year is *tax refunds*.
