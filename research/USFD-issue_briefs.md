@@ -1,6 +1,7 @@
 ### Thinking time - Sprint day. Sep 22
 
 Common issues according to US Financial Diaries
+
 1. Emergency Savings
 	-  prevalence of income
 volatility
@@ -17,6 +18,9 @@ emergency savings, according to standard financial literacy curricula
 what conventional wisdom recommends, only **7%** of
 households had managed to set aside an amount
 equal to or more than their perceived need.
+
 2. Savings Horizons
+
 3. An invisible finance sector: how households use financial tools of their own making
+
 4. Spikes and Dips: how income uncertainty affects households
