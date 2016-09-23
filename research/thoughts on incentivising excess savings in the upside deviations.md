@@ -10,19 +10,19 @@
 
 Savings pools work as follows:
 
-(a) Mario puts $200 a fortnight into a communal money pool with ten of his friends, one of which is trusted to keep records.
-(b) Each fortnight, a person is chosen at random, and receives all of the $2000 (although no one person is able to have two rounds of recepts before each person recieves the funds).
-(c) These funds are unsecured, and "credit scoring" is done by each person on their peers, based on their friendship and communal trust. 
+1. Mario puts $200 a fortnight into a communal money pool with ten of his friends, one of which is trusted to keep records.
+2. Each fortnight, a person is chosen at random, and receives all of the $2000 (although no one person is able to have two rounds of recepts before each person recieves the funds).
+3. These funds are unsecured, and "credit scoring" is done by each person on their peers, based on their friendship and communal trust. 
 Note about defaults: in these communities, the contribution to the savings pool, which is to friends and family, is the first payment that a person makes (often before other bills owing) -- the rate of default is "naturally" low.
 
-7. We want to formalise these savings groups using our app - nisLi:
+We want to formalise these savings groups using our app - nisLi:
 
-(a) Like a savings group, each member pledges to pay a certain amount each month for a period of n*freq
-(b) However, we capture the upward swings by allowing the prepayment of future payments. These prepayments are held and accrue interest for the group.
-(c) Further, we incentivise these savings as with a points / bidding system:
-	(i) 	Each dollar committed above par gives the user a point;
-	(ii) 	Each month, users bid, with their points, for the right to "order" their payment.
-(d) To help smooth shocks, a user who has saved more funds is able to pay less than par untill their payment is equal to par * period.
-(e) If a user requires extra funds beyond the payment relief afforded in the above, they can communicate that wish to the group, and that amount can be "pledged" by a user with excess savings, earning the pledgor points. The funds are automatically repaid to the pledgor out of the borrower's "pot".
-(f) Further incentive is provided socially, with leaderboards showing how much "extra" each person has saved, and how much has been pledged.
-(g) At the end of a period, the interest earned in the group is distributed to the person with the most points.
+1. Like a savings group, each member pledges to pay a certain amount each month for a period of n*freq
+2. However, we capture the upward swings by allowing the prepayment of future payments. These prepayments are held and accrue interest for the group.
+3. Further, we incentivise these savings as with a points / bidding system:
+	1.	Each dollar committed above par gives the user a point;
+	2. 	Each month, users bid, with their points, for the right to "order" their payment.
+4. To help smooth shocks, a user who has saved more funds is able to pay less than par untill their payment is equal to par * period.
+5. If a user requires extra funds beyond the payment relief afforded in the above, they can communicate that wish to the group, and that amount can be "pledged" by a user with excess savings, earning the pledgor points. The funds are automatically repaid to the pledgor out of the borrower's "pot".
+6. Further incentive is provided socially, with leaderboards showing how much "extra" each person has saved, and how much has been pledged.
+7. At the end of a period, the interest earned in the group is distributed to the person with the most points.
