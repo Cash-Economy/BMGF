@@ -8,13 +8,15 @@
 8. Increases in income, don't lead to a higher rate of saving.
 9. We propose to incentivise savings during these high income deviations, to help cover the lean times.
 
-* Savings pools work as follows:
+Savings pools work as follows:
+
 (a) Mario puts $200 a fortnight into a communal money pool with ten of his friends, one of which is trusted to keep records.
 (b) Each fortnight, a person is chosen at random, and receives all of the $2000 (although no one person is able to have two rounds of recepts before each person recieves the funds).
 (c) These funds are unsecured, and "credit scoring" is done by each person on their peers, based on their friendship and communal trust. 
 Note about defaults: in these communities, the contribution to the savings pool, which is to friends and family, is the first payment that a person makes (often before other bills owing) -- the rate of default is "naturally" low.
 
 7. We want to formalise these savings groups using our app - nisLi:
+
 (a) Like a savings group, each member pledges to pay a certain amount each month for a period of n*freq
 (b) However, we capture the upward swings by allowing the prepayment of future payments. These prepayments are held and accrue interest for the group.
 (c) Further, we incentivise these savings as with a points / bidding system:
