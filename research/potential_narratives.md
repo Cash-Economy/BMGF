@@ -1,4 +1,4 @@
-### Very rough narratives
+### Very rough narratives (KJ)
 
 1. Smoothening income volatility:
   - Individuals have very volatile income streams, and 6 months out of a year individuals either make 20% more or less than their mean income.
