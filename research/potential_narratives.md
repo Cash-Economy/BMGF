@@ -18,7 +18,7 @@
 
 --------------------
 
-# Individual narrative drafts
+# Individual narrative drafts (JCO)
 
 1. 92% of surveyed low income households stated that financial stability is more valuable to them than increased in their income.
 2. Income uncertainty complicates choices over jobs, budgeting, taking personal plans, and deciding to borrow or save.
