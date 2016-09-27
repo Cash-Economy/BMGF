@@ -12,7 +12,24 @@ Below is our status report for the week of 9/19 to 9/25. All of the artifacts ha
 
 ## Weekly commit graph
 
-![Commit graph 1](https://avatars0.githubusercontent.com/u/21958957?v=3&s=400)
+
+<div class="graphs" data-repo-url="https://github.com/Cash-Economy/BMGF">
+  <div id="contributors-master" class="tint-box"></div>
+  <div id="contributors" class="clearfix js-graph graph-canvas contributors-graph" data-graph-name="contributors" data-graph-width="458" data-url="/Cash-Economy/BMGF/graphs/contributors-data">
+    <div class="activity">
+  <img class="graph-loading dots" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64" alt="">
+  <div class="graph-loading msg">
+    <p>Crunching the latest data, just for you. Hang tight…</p>
+  </div>
+  <div class="graph-empty msg mt-6">
+    <h4>We don’t have enough data to show anything useful.</h4>
+    <p>It usually takes about a week to populate this graph.</p>
+  </div>
+  <div class="graph-no-usable-data msg mt-6">
+    <p>We need at least one non-empty commit with an email to generate this graph.</p>
+  </div>
+</div>
+
 
 ## The week behind
 
