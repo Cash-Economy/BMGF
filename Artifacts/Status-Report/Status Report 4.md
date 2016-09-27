@@ -12,7 +12,7 @@ Below is our status report for the week of 9/19 to 9/25. All of the artifacts ha
 
 ## Weekly commit graph
 
-![Commit graph 1](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Commit%20graph%201.png?raw=true "Commit graph 1")
+![Commit graph 1](https://avatars0.githubusercontent.com/u/21958957?v=3&s=400)
 
 ## The week behind
 
