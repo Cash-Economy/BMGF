@@ -1,5 +1,5 @@
 
-Below is our status report for the week of 9/11 to 9/118. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
+Below is our status report for the week of 9/11 to 9/18. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
 
 ## Recap on action items from [our conversation](https://github.com/Cash-Economy/BMGF/blob/master/research/External%20meeting%20log.md):
 
