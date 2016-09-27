@@ -19,8 +19,9 @@ Below is our status report for the week of 9/19 to 9/25. All of the artifacts ha
 
 * Updated system diagram based on new research from financial diaries
 * Conducted 24-hour sprint to develop product narrative and lo-fi demo
-  * Created new sets of product sketches based on revised system diagram (5 sets - each set per member)
-  * Developed product narrative
+  * Developed a new [system diagram](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/system-diagrams/Screen%20Shot%202016-09-23%20at%2011.32.42%20AM.png) based on our research
+  * Created new sets of [product sketches](https://github.com/Cash-Economy/BMGF/tree/master/Artifacts/elements/product-sketches/post-research) based on revised system diagram (5 sets - each set per member)
+  * Developed [product narrative](https://github.com/Cash-Economy/BMGF/blob/master/Jabberwocky%204.key)
   * Developed low-fi demo based on revised narrative
   * Presented demo to Cornell Tech community and received feedback from Cornell Tech investor in residence Thatcher Bell
 
