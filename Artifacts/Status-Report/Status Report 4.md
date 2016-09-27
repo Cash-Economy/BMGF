@@ -13,35 +13,49 @@ Below is our status report for the week of 9/19 to 9/25. All of the artifacts ha
 ## Weekly commit graph
 
 
-<div class="graphs" data-repo-url="https://github.com/Cash-Economy/BMGF">
-  <div id="contributors-master" class="tint-box"></div>
-  <div id="contributors" class="clearfix js-graph graph-canvas contributors-graph" data-graph-name="contributors" data-graph-width="458" data-url="/Cash-Economy/BMGF/graphs/contributors-data">
-    <div class="activity">
-  <img class="graph-loading dots" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64" alt="">
-  <div class="graph-loading msg">
-    <p>Crunching the latest data, just for you. Hang tight…</p>
+<div class="graph-filter clearfix">
+  <div class="select-menu float-right js-menu-container js-select-menu js-contribution-container">
+
+    <button class="btn btn-sm select-menu-button js-menu-target" type="button" aria-haspopup="true">
+      <i>Contributions:</i>
+      <span class="js-select-button">Commits</span>
+    </button>
+
+    <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+      <div class="select-menu-modal">
+        <div class="select-menu-header">
+          <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+          <span class="select-menu-title">Filter contributions</span>
+        </div>
+
+        <div class="select-menu-list">
+
+          <div class="select-menu-item js-navigation-item ">
+            <input id="ctype_a" name="ctype" type="radio" value="a" />
+            <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+            <div class="select-menu-item-text js-select-button-text">Additions</div>
+          </div>
+          <div class="select-menu-item js-navigation-item ">
+            <input id="ctype_d" name="ctype" type="radio" value="d" />
+            <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+            <div class="select-menu-item-text js-select-button-text">Deletions</div>
+          </div>
+          <div class="select-menu-item js-navigation-item selected">
+            <input checked="checked" id="ctype_c" name="ctype" type="radio" value="c" />
+            <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+            <div class="select-menu-item-text js-select-button-text">Commits</div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
   </div>
-  <div class="graph-empty msg mt-6">
-    <h4>We don’t have enough data to show anything useful.</h4>
-    <p>It usually takes about a week to populate this graph.</p>
-  </div>
-  <div class="graph-no-usable-data msg mt-6">
-    <p>We need at least one non-empty commit with an email to generate this graph.</p>
-  </div>
+
+  <h3 class="js-date-range">Loading contributions…</h3>
+  <p class="info">Contributions to master, excluding merge commits</p>
+
 </div>
-
-<div class="graph-error error mt-6">
-  <p>We tried our best, but the graph wouldn’t load. Try reloading the page.</p>
-</div>
-
-  </div>
-</div>
-
-
-  </div>
-  <div class="modal-backdrop js-touch-events"></div>
-</div>
-
 
 
 ## The week behind
