@@ -14,7 +14,7 @@ Below is our status report for the week of 9/11 to 9/18. All of the artifacts ha
 
 ## Weekly commit graph
 
-![Commit graph 1](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Commit%20graph%201.png?raw=true "Commit graph 1")
+![Commit graph 2](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Commit%20graph%201.png?raw=true "Commit graph 2")
 
 ## The week behind
 
