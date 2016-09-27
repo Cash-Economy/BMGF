@@ -5,10 +5,7 @@ Below is our status report for the week of 9/19 to 9/25. All of the artifacts ha
 * Help connect us to research resources
 *	Agree on a bi-weekly meeting time
 *	Set up travel details for the week of October 5th workshop in DC
-
-## Challenge question
-
-> How might we ensure low-income people who mainly live in a cash economy have positive financial health for life?
+* Meet company champion, Dave Kim, in person on Wednesday. Time TBD.
 
 ## Weekly commit graph
 
