@@ -30,6 +30,19 @@ Below is our status report for the week of 9/19 to 9/25. All of the artifacts ha
   </div>
 </div>
 
+<div class="graph-error error mt-6">
+  <p>We tried our best, but the graph wouldn’t load. Try reloading the page.</p>
+</div>
+
+  </div>
+</div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+
 
 ## The week behind
 
