@@ -31,7 +31,9 @@ So far, all is going according to plan.
 ## Want to read more? 
 
 Check out:
-* the [product of our first sprint](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/Pitch/Jabberwocky%205.key)
+* the products of our first sprint:
+  * [the pitch](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/Pitch/Jabberwocky%205.key)
+  * [the prototype](https://marvelapp.com/i19c9a)
 * our [product storyboard](https://raw.githubusercontent.com/Cash-Economy/BMGF/master/Artifacts/elements/storyboard/Storyboard%20v1.jpg)
 * our [architecture diagram](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/Architecture%20Diagram.md)
 * what we are working on [right now](https://github.com/Cash-Economy/BMGF/issues)
