@@ -6,6 +6,10 @@ This is the repository for work in process artifacts for Autumn 2016 "Product St
 
 > How might we ensure low-income people who mainly live in a cash economy have positive financial health for life?	
 
+## What are we doing?
+
+92% of low-income households state that financial stability is more valuable to them than higher income. Hundreds of millions of households manage their credit through savings pools. These, however, are inflexible and disconnected from the formal economy. We propose a flexible, formalised savings pool model that builds credit history and generates interest income for the users.
+
 ## Our Team
 
 - [Kuljot Anand](https://www.linkedin.com/in/kuljot-kj-anand-93925915) | [@kuljotanand](https://github.com/kuljotanand) | CS Candidate
