@@ -2,6 +2,7 @@ Our artifacts for the week:
 
 - [prototype v1](https://marvelapp.com/i19c9a/screen/15389712)
 - [stakeholders sheet](https://github.com/Cash-Economy/BMGF/blob/master/process/Stakeholders.md)
+
 | Who 					        | How 				        		            	| When		             |
 | ----------------------|---------------------------------------|--------------------- |
 | Project Team			    | See [cadence](https://github.com/Cash-Economy/BMGF/blob/master/process/Weekly%20development%20process.md)	             	| See cadence	      	 |
