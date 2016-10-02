@@ -12,15 +12,16 @@
 
 
 Research stakeholders are:
-- Robin Hood Foundation	
-- Metlife					
-- CFSI					
-- Penny					
-- Even					
-- Puddle					
-- Digit					
-- Emoney-pool				
-- Doorway to dreams		
-- Local credit unions		
+- [Robin Hood Foundation] (https://www.robinhood.org/)
+- [Blue Ridge Labs @ Robin Hood] (https://labs.robinhood.org/)
+- [Metlife Foundation] (https://www.metlife.com/metlife-foundation/index.html)					
+- [Center for Financial Services Innovation] (http://www.cfsinnovation.com/)
+- [Penny] (https://www.pennyapp.io/)
+- [Even] (https://even.com/)				
+- [Puddle] (https://www.puddle.com/)					
+- [Digit] (https://digit.co/)					
+- [eMoneyPool] (https://www.emoneypool.com/)				
+- [Commonwealth] (http://www.d2dfund.org/about)		
+- [Local credit unions] (http://www.brooklyn.coop/)		
 - Real banks				
-- Cheque Cashers			
+- [Cheque Cashers] (http://davidsfinancial.com/)			
