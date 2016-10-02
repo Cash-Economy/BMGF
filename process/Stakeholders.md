@@ -1,7 +1,7 @@
 # Stakeholder Touchpoints
 
 | Who 					        | How 				        		            	| When		             |
-| ------------------------------------------------------------------------------------ |
+| ----------------------|---------------------------------------|--------------------- |
 | Project Team			    | See [cadence](link.com)	             	| See cadence	      	 |
 | B+MG Foundation		   	| See [cadence](link.com)		            | See cadence (weekly) |
 | User groups		    		| In person, and via minor stakeholders | Fortnightly          |
