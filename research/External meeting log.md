@@ -1,3 +1,26 @@
+### 28 September: In Person Meeting with Dave Kim @ Cornell Tech
+
+- Have Dave connect us to the following groups:
+	- Met Life Foundation
+	- CFSI
+	- Penny - Build positive credit score
+	- Robinhood Foundation
+	
+- Team do research on the following startups
+	- eMoneyPool
+	- Puddle
+	- Even 
+	- Penny
+	- Digit
+	
+- Team do take care of the following action items:
+	- Speak to potential users - savings group etc. to get validation
+	- Get in touch with local credit instituitions, cash lending organizations 
+	- Develop paper prototypes to provide alternatives for users to consider (admin vs. everybody view)
+	- Research on startups
+	- Get in touch with groups recommended by company champion
+	- Setup weekly cadence with Dave
+
 ### 13 September: Meeting with Dave Kim
 
 - Financial health has 3 major aspects:
