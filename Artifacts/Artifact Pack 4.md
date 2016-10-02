@@ -1,7 +1,7 @@
 Our artifacts for the week:
 
 - [prototype v1](https://marvelapp.com/i19c9a/screen/15389712)
-- [paper protypes Admin & user view](https://github.com/Cash-Economy/BMGF/tree/master/Artifacts/elements/Paper-sketches)
+- [- Paper prototype of administrator-centric method](https://github.com/Cash-Economy/BMGF/tree/master/Artifacts/elements/Paper-sketches)
 - [stakeholders sheet](https://github.com/Cash-Economy/BMGF/blob/master/process/Stakeholders.md)
 
 | Who 					        | How 				        		            	| When		             |
@@ -21,7 +21,6 @@ Our artifacts for the week:
 
 ### For next week:
 - [prototype v2]
-- Paper prototype of administrator-centric method
 - Sketch of interest v lottery model of reward
 - user questionnaire about:
     - date changes as stimulus
