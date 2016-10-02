@@ -3,13 +3,13 @@ Below is our status report for the week of 9/26 to 10/2. All of the artifacts ha
 ## Sent follow up on action items from [our conversation](https://github.com/Cash-Economy/BMGF/blob/master/research/External%20meeting%20log.md):
 
 * Connect us with the following groups (or any other groups you think will help us):
-o   Met Life Foundation
-o   CFSI
-o   Penny
-o   Robinhood
+ * Met Life Foundation
+ * CFSI
+ * Penny
+ * Robinhood
 * Confirm the time for our weekly meeting for Wednesdays at 7pm ET (4pm PT)
 * Johanan and Aamer will be attending the conference in DC with you on Wednesday and will be giving you an in person update for the week
-o   Can you please confirm if Johanan and Aamer will be organizing the travel themselves and then asking for reimbursement or if there is another method that they should take?
+* Can you please confirm if Johanan and Aamer will be organizing the travel themselves and then asking for reimbursement or if there is another method that they should take?
 
 ## Weekly commit graph
 
