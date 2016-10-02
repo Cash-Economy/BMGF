@@ -1,4 +1,4 @@
-### 13 September: Meeting with Dave Kim
+### 28 September: In Person Meeting with Dave Kim
 
 - Financial health has 3 major aspects:
 	- Cash flow management
