@@ -4,6 +4,15 @@ Our artifacts for the week:
 - [stakeholders sheet](https://github.com/Cash-Economy/BMGF/blob/master/process/Stakeholders.md)
 - [second conversation with company champion](https://github.com/Cash-Economy/BMGF/blob/master/research/External%20meeting%20log.md)
 
+| Who 					        | How 				        		            	| When		             |
+| ----------------------|---------------------------------------|--------------------- |
+| Project Team			    | See [cadence](https://github.com/Cash-Economy/BMGF/blob/master/process/Weekly%20development%20process.md)	             	| See cadence	      	 |
+| B+MG Foundation		   	| See [cadence](https://github.com/Cash-Economy/BMGF/blob/master/process/Weekly%20development%20process.md)		            | See cadence (weekly) |
+| User groups		    		| In person, and via minor stakeholders | Fortnightly          |
+| Faculty contacts	  	| In person, formally / informally    	| monthly / close	     |
+| Studio contacts		  	| Formally, in person, as a groups 	    | during office hours  |
+| [Research stakeholders](https://github.com/Cash-Economy/BMGF/blob/master/process/Stakeholders.md)	| Formally, presentation		          	| v1, v3               |
+
 *[Status Report](link.com)*
 
 ### For next week:
