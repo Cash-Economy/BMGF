@@ -12,7 +12,7 @@ This is the repository for work in process artifacts for Autumn 2016 "Product St
 
 *We propose a flexible, formalised savings pool model that builds credit history and generates interest income for the users.*
 
-Our latest product demo video: https://vimeo.com/185554227
+[Our latest product demo video](https://vimeo.com/185554227)
 
 ## Our Team
 
