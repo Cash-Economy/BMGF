@@ -8,7 +8,7 @@
     + [Long Game](https://www.longgame.co/index.html), rewards savers with lottery games and prizes to incentivize savings
     + We need to speak to these groups to understand the circumstances under which these incentives are effective
   + Savings groups are already being used to provide formal credit assessment
-    + Mission Asset Fund has a network of partners who work with savings groups and local credit unions to generate credit scores
+    + [Mission Asset Fund](http://missionassetfund.org/) has a network of partners who work with savings groups and local credit unions to generate credit scores
     + This could be an important distribution channel for the savings app
   + This space is already crowded and competitive.
   + *Therefore, our efforts will be best channeled towards driving user engagement.*
