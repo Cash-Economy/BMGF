@@ -18,9 +18,10 @@ Below is our status report for the week of 10/3 to 10/9. All of the artifacts ha
 
 ## The week behind
 
-* We improved the prototype. Administrator interface. https://marvelapp.com/i19c9a/screen/15391861
-* We developed the Stakeholder sheet. https://github.com/Cash-Economy/BMGF/blob/master/process/Stakeholders.md
-* In person meeting with Dave (our company champion).
+* Scheduled meetings with CFSI, Robinhood, MetLife Foundation and Alice to discuss product strategy and resources for user research
+  ** Conducted meeting with Ryan Falvey 
+* Part of team attended CFSI global financial health indicator meeting to learn about financial health and validate product with leaders in the financial inclusion industry
+* Developed crit findings log
 
 ## The week ahead
 
