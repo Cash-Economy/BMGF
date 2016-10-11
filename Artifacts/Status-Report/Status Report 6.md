@@ -10,7 +10,7 @@ Below is our status report for the week of 10/3 to 10/9. All of the artifacts ha
 * Scheduled meetings with CFSI, Robinhood, MetLife Foundation and Alice to discuss product strategy and resources for user research
   * Conducted meeting with CFSI contact Ryan Falvey on 10/11 to get input on product and for potential resources to reach out to
 * Part of team attended CFSI global financial health indicator meeting to learn about financial health and validate product with leaders in the financial inclusion industry
-* Developed crit findings log
+* Developed [crit findings log](https://github.com/Cash-Economy/BMGF/blob/master/process/Crit%20Findings%20Log.md)
 
 ## The week ahead
 
