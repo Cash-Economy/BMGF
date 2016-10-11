@@ -10,7 +10,6 @@
   + Savings groups are already being used to provide formal credit assessment
     + [Mission Asset Fund](http://missionassetfund.org/) has a network of partners who work with savings groups and local credit unions to generate credit scores
     + This could be an important distribution channel for the savings app
-  + This space is already crowded and competitive.
-  + *Therefore, our efforts will be best channeled towards driving user engagement.*
-  + This engagement should be targeted towards a specific user behavior - savings.
-  + Develop targets for measuring engagement and user behaviors.
+  + The financial health space is already crowded and competitive, but user engagement is still weak for many solutions.
+  + *Therefore, our efforts will be best channeled towards driving user engagement targeted towards a specific user behavior - saving.*
+  + Develop measurement & targets for engagement and user behavior.
