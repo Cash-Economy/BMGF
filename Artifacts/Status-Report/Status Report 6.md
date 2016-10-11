@@ -1,4 +1,4 @@
-Below is our status report for the week of 9/26 to 10/2. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
+Below is our status report for the week of 10/3 to 10/9. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
 
 ## Sent follow up on action items from [our conversation](https://github.com/Cash-Economy/BMGF/blob/master/research/External%20meeting%20log.md):
 
