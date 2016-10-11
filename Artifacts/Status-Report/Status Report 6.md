@@ -15,6 +15,7 @@ Below is our status report for the week of 10/3 to 10/9. All of the artifacts ha
 ## The week ahead
 
 * Create user findings log
+* Conduct research on target users to understand their needs and validate product
 * Obtain and reach contacts provided by CFSI contact Ryan Falvey (Mission Asset Fund, Neighborhood Trust, CFSI - Sarah Gordon etc.)
 * Research on startups recommended by Ryan Falvey: Significance Labs, Everlance, Digit, Stash, Albert
 
