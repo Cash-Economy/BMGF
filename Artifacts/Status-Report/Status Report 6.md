@@ -19,7 +19,7 @@ Below is our status report for the week of 10/3 to 10/9. All of the artifacts ha
 ## The week behind
 
 * Scheduled meetings with CFSI, Robinhood, MetLife Foundation and Alice to discuss product strategy and resources for user research
-  ** Conducted meeting with Ryan Falvey 
+** Conducted meeting with Ryan Falvey 
 * Part of team attended CFSI global financial health indicator meeting to learn about financial health and validate product with leaders in the financial inclusion industry
 * Developed crit findings log
 
