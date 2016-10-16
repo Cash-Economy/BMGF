@@ -1,6 +1,6 @@
 # Bill & Melinda Gates Foundation challenge
 
-This is the repository for work in process artifacts for Autumn 2016 "Product Studio", Bill + Melinda Gates Foundation team. Our product preliminarily called ~~~~money.days~~~~.
+This is the repository for work in process artifacts for Autumn 2016 "Product Studio", Bill + Melinda Gates Foundation team. Our product preliminarily called 'money.days'.
 
 ## Our Challenge
 
