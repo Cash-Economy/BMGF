@@ -1,4 +1,4 @@
-Below is our status report for the week of 10/3 to 10/9. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
+Below is our status report for the week of 10/10 to 10/16. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
 
 ## Weekly commit graph
 
@@ -7,22 +7,22 @@ Below is our status report for the week of 10/3 to 10/9. All of the artifacts ha
 
 ## The week behind
 
-* Scheduled meetings with CFSI, Robinhood, MetLife Foundation and Alice to discuss product strategy and resources for user research
-  * Conducted meeting with CFSI contact Ryan Falvey on 10/11 to get input on product and for potential resources to reach out to
-* Part of team attended CFSI global financial health indicator meeting to learn about financial health and validate product with leaders in the financial inclusion industry
-* Developed [crit findings log](https://github.com/Cash-Economy/BMGF/blob/master/process/Crit%20Findings%20Log.md)
+* Conducted user research interviews with check cashing business users and potential user groups in Brooklyn 10/14 [notes found here]https://github.com/Cash-Economy/BMGF/blob/master/research/Vox%20Populi.md
+* Created new sketches for administrative view of product
+* Updated system diagram based on new iterations of product
+* Updated technical architecture in preparation for sprint on 10/20
+* Reached out to contact at Neighborhood Trust to request speaking
 
 ## The week ahead
 
-* Create user findings log
-* Conduct research on target users to understand their needs and validate product
-* Obtain and reach contacts provided by CFSI contact Ryan Falvey (Mission Asset Fund, Neighborhood Trust, CFSI - Sarah Gordon etc.)
-* Research on startups recommended by Ryan Falvey: Significance Labs, Everlance, Digit, Stash, Albert
+* Develop product during sprint on 10/20
+* Continue to speak to potential users of product
+* Continue to follow up on contacts provided by advisors
 
 ## Key learnings from retro
 
-* We need to focus on user engagement and develop a product that users would want to use
-* Learn from other startups that have high user engagement
+* Need speak to more potential users and understand their painpoints and savings goals
+* Need to develop alternative views of product
 
 ## Risks
 
