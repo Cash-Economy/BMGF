@@ -10,7 +10,7 @@ This is the repository for work in process artifacts for Autumn 2016 "Product St
 
 92% of low-income households state that financial stability is more valuable to them than higher income. Hundreds of millions of households manage their credit through savings pools. These, however, are inflexible and disconnected from the formal economy. 
 
-*We propose a flexible, formalised savings pool model that builds credit history and generates interest income for the users.*
+*We propose a flexible, formalised savings pool model that builds credit history and generates interest income for the users that is personalised not generic, and fun rather than stressful.*
 
 [Our latest product demo video](https://vimeo.com/185554227)
 
