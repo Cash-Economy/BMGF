@@ -13,6 +13,10 @@ Below is our status report for the week of 10/10 to 10/16. All of the artifacts 
 * Updated product loop based on new iterations of product
 * Updated technical architecture in preparation for sprint on 10/20
 * Reached out to contact at Neighborhood Trust to request speaking
+* Set up:
+  * AWS accounts
+  * Plate account | researched the implementation
+  * Twilio account
 
 ## The week ahead
 
