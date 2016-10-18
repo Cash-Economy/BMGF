@@ -2,6 +2,121 @@
 
 > Bill & Melinda Gates Foundation challenges us how might we ensure low-income people who mainly live in a cash economy have positive financial health for life? 
 
+# Week of 10/10 to 10/16
+
+Below is our status report for the week of 10/10 to 10/16. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
+
+## Weekly commit graph
+
+![Commit graph 2](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Commit graph 5.png)
+
+
+## The week behind
+
+* Conducted user research interviews with check cashing business users and potential user groups in Brooklyn and Chelsea - [notes found here](https://github.com/Cash-Economy/BMGF/blob/master/research/Vox%20Populi.md)
+* Created [new sketches](https://github.com/Cash-Economy/BMGF/tree/master/Artifacts/elements/product-sketches/admin-view) for administrative view of product
+* Updated system diagram based on new iterations of product
+* Updated product loop based on new iterations of product
+* Updated technical architecture in preparation for sprint on 10/20
+* Reached out to contact at Neighborhood Trust to request speaking
+* Set up:
+  * Project email | bmgf.cash.economy@gmail.com
+  * AWS accounts
+  * Plaid account | researched the implementation
+  * Twilio account
+
+## The week ahead
+
+* Develop product during sprint on 10/20
+* Continue to speak to potential users of product
+* Continue to follow up on contacts provided by advisors
+
+## Key learnings from retro
+
+* Need speak to more potential users and understand their painpoints and savings goals
+* Need to develop alternative views of product
+
+## Risks
+
+* If we don't test the product with the users the product might not be viable.
+
+
+# Week of 10/3 to 10/9
+
+Below is our status report for the week of 10/3 to 10/9. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
+
+## Weekly commit graph
+
+![Commit graph 2](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Commit Graph 4.png)
+
+
+## The week behind
+
+* Scheduled meetings with CFSI, Robinhood, MetLife Foundation and Alice to discuss product strategy and resources for user research
+  * Conducted meeting with CFSI contact Ryan Falvey on 10/11 to get input on product and for potential resources to reach out to
+* Part of team attended CFSI global financial health indicator meeting to learn about financial health and validate product with leaders in the financial inclusion industry
+* Developed [crit findings log](https://github.com/Cash-Economy/BMGF/blob/master/process/Crit%20Findings%20Log.md)
+
+## The week ahead
+
+* Create user findings log
+* Conduct research on target users to understand their needs and validate product
+* Obtain and reach contacts provided by CFSI contact Ryan Falvey (Mission Asset Fund, Neighborhood Trust, CFSI - Sarah Gordon etc.)
+* Research on startups recommended by Ryan Falvey: Significance Labs, Everlance, Digit, Stash, Albert
+
+## Key learnings from retro
+
+* We need to focus on user engagement and develop a product that users would want to use
+* Learn from other startups that have high user engagement
+
+## Risks
+
+* If we don't test the product with the users the product might not be viable.
+
+
+# Week on 9/26 to 10/2
+
+## Sent follow up on action items from [our conversation](https://github.com/Cash-Economy/BMGF/blob/master/research/External%20meeting%20log.md):
+
+* Connect us with the following groups (or any other groups you think will help us):
+ * Met Life Foundation
+ * CFSI
+ * Penny
+ * Robinhood
+* Confirm the time for our weekly meeting for Wednesdays at 7pm ET (4pm PT)
+* Johanan and Aamer will be attending the conference in DC with you on Wednesday and will be giving you an in person update for the week
+* Can you please confirm if Johanan and Aamer will be organizing the travel themselves and then asking for reimbursement or if there is another method that they should take?
+
+## Weekly commit graph
+
+![Commit graph 2](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Weekly%20commit.png)
+
+
+## The week behind
+
+* We improved the prototype. Administrator interface. https://marvelapp.com/i19c9a/screen/15391861
+* We developed the Stakeholder sheet. https://github.com/Cash-Economy/BMGF/blob/master/process/Stakeholders.md
+* In person meeting with Dave (our company champion).
+
+## The week ahead
+
+* Sketch of interest v lottery model of reward
+* User questionnaire about:
+ ** Date changes as stimulus
+* Bank questionnaire about:
+ ** Cash v digital transactions and credit scoring
+* Meet with research stakeholders
+
+## Key learnings from retro
+
+* We learnt that the Credit reporting feature is really usefull and one of the main benefits of the system.
+* We realized that we should look at other alternative stimulous models. Lottery based savings, etc...
+* We realized that we need to talk to future users of the platform.
+
+## Risks
+
+* If we don't test the product with the users the product might not be viable.
+
 # Week of 18/11 to 9/27
 
 Below is our status report for the week of 9/19 to 9/25. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
