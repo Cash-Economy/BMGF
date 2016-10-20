@@ -1,6 +1,4 @@
-```
 money.days
-```
 
 # Use-cases
 
@@ -67,9 +65,30 @@ money.days
     2. If reccurrent *Database*
       1. Suggestion to speak to group administrator
 
-### Use-Case 3 - non-transacting days
+# Use-Case 3 - non-transacting days
 1. Reassuring text message sent *Twilio*
   1. You have x dollars and x points in the bank
   2. rank
   3. goal
   4. Progress
+
+### Refined "NOT A" USE CASE
+
+1. User receives income in their checking account (cheque cashing or direct deposit)
+2. STUB System polls the checking account (periodically, not triggered by point 1.) *Plaid*
+  1. STUB System catalogues the change in cash *Database*
+  2. STUB System compares this income injection to previous time-periods *at first statistics, then machine learning*
+3. System notifies the user of transfer (with context) *Twilio*
+4. Human Input *Twilio OR Web-App* : instruction to make or not to make a deposit
+  1. *Twilio Version*
+    1. OR Deposit made *Plaid*
+      1. notification of order
+      2. notification of successess
+      3. notification of point
+    2. OR No deposit made
+      1. nagging notification
+  2. *Web-App Version*
+    1. Visualisation
+    2. Action [Make Payment]
+    3. notifications
+5. Update on point, progress (towards goal) and rank
