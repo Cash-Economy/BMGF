@@ -1,6 +1,6 @@
 # Crit Findings Log
 
-> Feedback from conversations with external stakeholders
+*Feedback from conversations with external stakeholders*
 
 ## Alumni crit No. 1
 
