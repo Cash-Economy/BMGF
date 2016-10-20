@@ -67,7 +67,7 @@ money.days
     2. If reccurrent *Database*
       1. Suggestion to speak to group administrator
 
-# Use-Case 3 - non-transacting days
+### Use-Case 3 - non-transacting days
 1. Reassuring text message sent *Twilio*
   1. You have x dollars and x points in the bank
   2. rank
