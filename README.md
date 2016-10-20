@@ -37,6 +37,6 @@ Check out:
   * [the pitch](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/Pitch/Jabberwocky%205.key)
   * [the prototype](https://marvelapp.com/i19c9a)
 * our [product storyboard](https://raw.githubusercontent.com/Cash-Economy/BMGF/master/Artifacts/elements/storyboard/Storyboard%20v1.jpg)
-* our [architecture diagram](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/Architecture%20Diagram.md)
+* our [architecture diagram](https://vimeo.com/188220559)
 * what we are working on [right now](https://github.com/Cash-Economy/BMGF/issues)
 * our [weekly progress log](https://github.com/Cash-Economy/BMGF/blob/master/process/Weekly%20Progress%20Log.md)
