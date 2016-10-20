@@ -1,4 +1,6 @@
-```money.days```
+```
+money.days
+```
 
 # Use-cases
 
