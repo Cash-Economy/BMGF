@@ -106,4 +106,4 @@ jackpot_amount = 80
 bigmac_cost = 3
 bigmac_number = jackpot_amount / bigmac_cost
 
-"You have %r money.days and have about the same chance of winning the jackpot as a grown-up ordering a big-mac when he goes to Micky Dees! Incidentally, you could buy %r Big Macs with that Jackpot, but don't!}" % (point_balance, bigmac_number)
+"You have %r money.days and have about the same chance of winning the jackpot as a grown-up ordering a big-mac when he goes to Micky Dees! Incidentally, you could buy %r Big Macs with that Jackpot, but don't!" % (point_balance, bigmac_number)
