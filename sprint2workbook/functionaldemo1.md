@@ -4,6 +4,8 @@
 
 # Note: text messages 1-5 are for illustrative purposes only, and the data elicited from them would in reality be drawn from the database
 
+# Note: consider where to go the website
+
 # User: text message 1 - initiates conversation in response to our prompt
 message1 = "JoJo" # e.g. of message content
 
@@ -67,7 +69,7 @@ elif message9 == 2:
 elif message9 == 3:
   "Awesome, how much do you want to deposit?"
 else:
-  "ERROR, CANNOT COMPUTE! (Jokes! Please message me 1, 2 or 3, and I'll sort you out)"
+  "ERROR, CANNOT COMPUTE! (Jokes! Please message me 1, 2 or 3, and I'll sort you out)" # probably should be on the look out for other prompts here, or at least throw to the website
 
 # Human: text message 11
 
