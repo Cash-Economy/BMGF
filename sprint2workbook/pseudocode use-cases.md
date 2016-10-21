@@ -29,19 +29,26 @@
 "You have {x} money.days and have {about the same chance of winning the jackpot as a grown-up ordering a big-mac when he goes to Micky Dees! Incidentally, you could buy {jackpot_amount/3} Big Macs with that Jackpot, but don't!}"
 ```
 
-### wishlist
+## Friend makes a deposit
+
+On day where User doesn't make a deposit but there is a deposit in the groups
+
+```
+"Psst, one of your savings compatriots made a deposit today. Do you want to save a few bucks to get you closer to getting that {goal_name} you wanted? It'll also help you catch some money.days on the competition for the jackpot."
+
+"""
+I'll tell you what, between you and me, I'll give you 10 bonus money.days if you put something aside today. What do you say?
+1 : For you? Of course!
+2 : Nah, thanks though...
+"""
+  if "1":
+    "My Man! "
+```
+
+## wishlist
 - different responses for different amount of times that the User chooses option 2, or option 3 where deposit_amount < minimum_deposit (increasingly whiney)
 - different end messages
   - funny expressions of lottery odds
   - time to goal where that is motivating (e.g. short term where goal_sum is reasonable)
 - if Trns within half a standard deviation of mean_time && Regular_amount being different from edge case inputs
 - regular input being different from a
-
-## Friend makes a deposit
-
-```
-"Psst, one of your savings compatriots made a deposit today. Do you want to save a few bucks, to maximise your chances of winning and get you closer to getting that {goal_name} you wanted?"
-
-```
-
-
