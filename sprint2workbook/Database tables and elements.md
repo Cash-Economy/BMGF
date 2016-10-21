@@ -37,5 +37,21 @@
   - transaction description
   
 - User's Payment Methods
+  - user id
+  - bank account name
+  - bank account type
+  - bank account number
+  
 - User's points
+  - user id + group id
+  - date
+  - previous point balance
+  - points added/deleted
+  - new points balance
+  - transaction type
+  
 - User goals + monetary value
+  - user id
+  - goal name
+  - goal amount
+  
