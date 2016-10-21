@@ -1,3 +1,5 @@
+#use http://kj-twilio.herokuapp.com/sms
+
 from flask import Flask, request, redirect
 from twilio import twiml
 
