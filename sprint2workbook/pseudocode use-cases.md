@@ -29,6 +29,14 @@
 "You have {x} money.days and have {about the same chance of winning the jackpot as a grown-up ordering a big-mac when he goes to Micky Dees! Incidentally, you could buy {jackpot_amount/3} Big Macs with that Jackpot, but don't!}"
 ```
 
+### wishlist
+- different responses for different amount of times that the User chooses option 2, or option 3 where deposit_amount < minimum_deposit (increasingly whiney)
+- different end messages
+  - funny expressions of lottery odds
+  - time to goal where that is motivating (e.g. short term where goal_sum is reasonable)
+- if Trns within half a standard deviation of mean_time && Regular_amount being different from edge case inputs
+- regular input being different from a
+
 ## Friend makes a deposit
 
 ```
@@ -36,10 +44,4 @@
 
 ```
 
-## wishlist
-- different responses for different amount of times that the User chooses option 2, or option 3 where deposit_amount < minimum_deposit (increasingly whiney)
-- different end messages
-  - funny expressions of lottery odds
-  - time to goal where that is motivating (e.g. short term where goal_sum is reasonable)
-- if Trns within half a standard deviation of mean_time && Regular_amount being different from edge case inputs
-- regular input being different from a
+
