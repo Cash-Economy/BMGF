@@ -1,8 +1,10 @@
+from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse
+
+from main.models import PoolMembership, UserContribution, UserPointMovement, UserGoal
 
 
 def index(request):
@@ -52,12 +54,97 @@ def register(request):
 
 @login_required
 def user_detail(request, pk_user=None):
+
+    poolMembership = PoolMembership.objects.filter(user=request.user)[0]
+    pool = poolMembership.group
+
+    print("User: "+request.user.first_name)
+    print("Pool Name: "+pool.name)
+
+    contributions = UserContribution.objects.filter(user=request.user, group=pool).order_by('-time')
+
+    money_balances = []
+    for cont in contributions:
+        print("Amount: "+str(cont.txn_amount))
+        print("Balance: "+str(cont.balance))
+        print("Time: "+str(cont.time))
+        time = int(cont.time.timestamp() * 1000)
+        money_balances.append((time, cont.balance))
+
+    pointmovements = UserPointMovement.objects.filter(user=request.user, group=pool).order_by('-time')
+
+    point_balances = []
+    for cont in pointmovements:
+        print("Amount: "+str(cont.txn_amount))
+        print("Balance: "+str(cont.balance))
+        print("Time: "+str(cont.time))
+        time = int(cont.time.timestamp() * 1000)
+        point_balances.append((time, cont.balance))
+
+    total_saved = contributions[0].balance
+    previous_saved = contributions[1].balance
+    savings_increase= (total_saved/previous_saved) * 100
+
+    total_points = pointmovements[0].balance
+    previous_points=pointmovements[1].balance
+    points_increase=(total_points/previous_points)*100
+
+    #FIXME NO GOAL MAYBE
+    goal = UserGoal.objects.filter(user=request.user)[0]
+
+
+
+
     parameters = dict(
         name=request.user.first_name,
         last_name=request.user.last_name,
-        app_name="Money Days!"
+        app_name="Money Days!",
+        moneybalances=money_balances,
+        pointbalances=point_balances,
+        total_saved=total_saved,
+        total_points=total_points,
+        goal_amount=goal.amount,
+        goal_name=goal.name,
+        goal_description=goal.description,
+        savings_increase="%.2f" % round(savings_increase,2),
+        points_increase="%.2f" % round(points_increase,2)
     )
     return render(request, "index.html", parameters)
+
+@login_required
+def make_payment(request):
+    print("MAKE PAYMENT")
+    if request.method != 'POST':
+        return redirect(reverse('user_detail', kwargs={"pk_user": request.user.id}))
+
+    if "amount" not in request.POST:
+        return redirect(reverse('user_detail', kwargs={"pk_user": request.user.id}))
+
+    amount = request.POST["amount"]
+    poolMembership = PoolMembership.objects.filter(user=request.user)[0]
+    pool = poolMembership.group
+
+    contrib = UserContribution(user=request.user, group=pool, txn_amount=float(amount))
+    contrib.save()
+
+    contrib = UserPointMovement(user=request.user, group=pool, txn_amount=0)
+    contrib.save()
+
+    from twilio.rest import TwilioRestClient
+
+    # put your own credentials here
+    ACCOUNT_SID = "AC57b70fb7b2b3c4ece4e29bf19bcf012e"
+    AUTH_TOKEN = "b494072ec7936bfacc44a3f679656674"
+
+    client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
+
+    client.messages.create(
+        to=request.user.phone_number,
+        from_="+16072755081",
+        body="Congratulations"+request.user.first_name+"! You have made a deposit of: "+str(amount)+"$",
+    )
+
+    return redirect(reverse('user_detail', kwargs={"pk_user": request.user.id}))
 
 
 @login_required

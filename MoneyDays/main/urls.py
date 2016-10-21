@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^login$', views.login_req, name='login'),
     url(r'^logout', views.logout_req,),
     url(r'^register$', views.register),
+    url(r'^savenow$', views.make_payment),
     url(r'^users/(?P<pk_user>[0-9]+)$', views.user_detail, name='user_detail'),
     url(r'^groups$', views.groups),
     url(r'^groups/(?P<pk_group>[0-9]+)$', views.group_detail),
