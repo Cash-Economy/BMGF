@@ -56,4 +56,19 @@ If you deposit %r you'll be well on the way to getting that new %r you wanted! D
 
 message9 = "1" # can be 1, 2, or 3
 
-# Machine:
+# Machine: text message 10
+
+term_end_date = "30 October 2016"
+
+if message9 == 1:
+  "Awesome! We are transferring $%r and will let you know when it's gone through!" % (optimal_deposit)
+elif message9 == 2:
+  "That's cool, don't forget that you need to contribute at least $%r by %r to keep your buddies in the black! And don't forget that the sooner you deposit your funds, the more money.days you'll earn!" % (minimum_minimum_deposit, term_end_date)
+elif message9 == 3:
+  "Awesome, how much do you want to deposit?"
+else:
+  "ERROR, CANNOT COMPUTE! (Jokes! Please message me 1, 2 or 3, and I'll sort you out)"
+
+# Human: text message 11
+
+# Find a way to annotate that we only wait for this text if option 3 was chosen
