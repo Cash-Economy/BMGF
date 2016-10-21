@@ -29,6 +29,14 @@
 "You have {x} money.days and have {about the same chance of winning the jackpot as a grown-up ordering a big-mac when he goes to Micky Dees! Incidentally, you could buy {jackpot_amount/3} Big Macs with that Jackpot, but don't!}"
 ```
 
+### wishlist
+- different responses for different amount of times that the User chooses option 2, or option 3 where deposit_amount < minimum_deposit (increasingly whiney)
+- different end messages
+  - funny expressions of lottery odds
+  - time to goal where that is motivating (e.g. short term where goal_sum is reasonable)
+- if Trns within half a standard deviation of mean_time && Regular_amount being different from edge case inputs
+- regular input being different from a
+
 ## Friend makes a deposit
 
 On day where User doesn't make a deposit but there is a deposit in the groups
@@ -42,13 +50,14 @@ I'll tell you what, between you and me, I'll give you 10 bonus money.days if you
 2 : Nah, thanks though...
 """
   if "1":
-    "My Man! "
+    "My Man! How much can you put away today?"
+    "${deposit_amount}! Awesome, you are {minimum_deposit - deposit_amount} away from saving up all you need for the {period}! We are transferring ${deposit_amount} and will let you know when it's gone through!"
+    "You've saved ${total_savings balance}: {total_savings / goal_amount*100}% of the way to that {goal_name} you wanted."
+    "You have {x} money.days and have {about the same chance of winning the jackpot as a person winning a pinewood derby, when there are five other entrants! You could buy {jackpot_amount/7} pinewood derby kits with the jackpot, but don't!}"
+  if "2":
+    "That's cool - don't forget you've got ${minimum_deposit-excess} to save before the end of the {period}."
 ```
 
-## wishlist
-- different responses for different amount of times that the User chooses option 2, or option 3 where deposit_amount < minimum_deposit (increasingly whiney)
-- different end messages
-  - funny expressions of lottery odds
-  - time to goal where that is motivating (e.g. short term where goal_sum is reasonable)
-- if Trns within half a standard deviation of mean_time && Regular_amount being different from edge case inputs
-- regular input being different from a
+### wishlist
+- different positive and negative net period contribution statements after deposit
+- more nuanced successes after deposit
