@@ -17,6 +17,14 @@ from django.conf.urls import url
 
 import views
 
+
 urlpatterns = [
-    url(r'^', views.hello),
+    url(r'^$', views.index),
+    url(r'^login$', views.login),
+    url(r'^register$', views.register),
+    url(r'^users/(?P<pk_user>[0-9]+)$', views.user_detail),
+    url(r'^groups$', views.groups),
+    url(r'^groups/(?P<pk_group>[0-9]+)$', views.group_detail),
+
+    url(r'^test$', views.test),
 ]

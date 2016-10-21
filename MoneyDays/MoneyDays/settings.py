@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MoneyDays.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["/home/mario/PycharmProjects/BMGF/MoneyDays/main/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -100,6 +100,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
@@ -118,4 +121,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/vendors/'
