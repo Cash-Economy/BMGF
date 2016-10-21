@@ -35,7 +35,7 @@
   - funny expressions of lottery odds
   - time to goal where that is motivating (e.g. short term where goal_sum is reasonable)
 - if Trns within half a standard deviation of mean_time && Regular_amount being different from edge case inputs
-- regular input being different from a
+- regular input being different from a windfall
 
 ## Friend makes a deposit
 
