@@ -8,16 +8,3 @@ What methods do we need to write for sprint 2?
 
 - get account info
 - modify account info
-
-
-**Data Tables and Elements**:
-- Users
-
-- Groups
-
-- User group membership
-- Contribution Ledger
-- Bank transaction Data
-- User's Payment Methods
-- User's points
-- User goals + monetary value
