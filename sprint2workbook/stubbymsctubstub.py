@@ -22,7 +22,7 @@ def incoming_sms():
         4: I want to make a custom deposit.
         """) % (body)
     elif body == '1':
-        resp.message("Champion! Saving more when you earn more helps you when you earn less. We've made the deposit and will let you know when it goes through.")
+        resp.message("Champion! Saving more when you earn more helps you when you earn less. We've made the deposit and will let you know when it goes through. You've also earned 50 bonus money.days This has increased your chance of winning the jackpot to about the same chance as a grown-up ordering a big-mac when at Micky-Dees! Coincidentally, you could buy 35 big-macs with the jackpot, but don't!")
     elif body == "2":
         resp.message("Great! Regular savings are good savings!")
     elif body == "3":
