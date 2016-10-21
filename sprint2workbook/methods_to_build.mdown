@@ -5,6 +5,5 @@ What methods do we need to write for sprint 2?
 - check points balance
 - check funds balance
 - link bank account
-
 - get account info
 - modify account info
