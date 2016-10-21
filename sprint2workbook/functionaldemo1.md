@@ -43,7 +43,7 @@ income_amount = 1500
 
 minimum_deposit = 200
 optimal_deposit = minimum_deposit*1.1
-optimal_deposit_pt_bonus = 50
+optimal_pt_bonus = 50
 savings_excess = 150
 minimum_minimum_deposit = minimum_deposit - savings_excess
 
@@ -63,6 +63,8 @@ message9 = "1" # can be 1, 2, or 3
 term_end_date = "30 October 2016"
 
 if message9 == 1:
+  deposit_amount = optimal_deposit
+  point_change = optimal_pt_bonus
   "Awesome! We are transferring $%r and will let you know when it's gone through!" % (optimal_deposit)
 elif message9 == 2:
   "That's cool, don't forget that you need to contribute at least $%r by %r to keep your buddies in the black! And don't forget that the sooner you deposit your funds, the more money.days you'll earn!" % (minimum_minimum_deposit, term_end_date)
@@ -71,6 +73,37 @@ elif message9 == 3:
 else:
   "ERROR, CANNOT COMPUTE! (Jokes! Please message me 1, 2 or 3, and I'll sort you out)" # probably should be on the look out for other prompts here, or at least throw to the website
 
-# Human: text message 11
+# User: text message 10A
 
-# Find a way to annotate that we only wait for this text if option 3 was chosen
+# Find a way to note that we only wait for this text if option 3 was chosen
+
+message10A = "250"
+
+# Machine: text message 10B
+
+deposit_amount = message10A
+superoptimal_point_bonus = 50
+
+if deposit_amount > optimal_deposit:
+  point_change = optimal_pt_bonus + superoptimal_point_bonus
+  "What a champion! Have 50 money.days on the house! We are transferring $%r and will let you know when it's gone through!" % (deposit_amount)
+elif deposit_amount + savings_excess >= minimum_deposit:
+  "Cool beans! We are transferring $deposit_amount and will let you know when it's gone through!"
+else:
+  "Great! Don't forget that your group is counting on you to contribute %r by %r. We are transferring $%r and will let you know when it's gone through!" % (minimum_minimum_deposit, end_date, deposit_amount)
+
+# Machine: text message 11
+
+savings_balance = 1200
+goal_achievement_ratio = (savings_balance / goal_amount * 100)
+
+"You've saved $%r: %r of the way to that %r you wanted." % (savings_balance, goal_achievement_ratio, goal_name)
+
+# Machine: text message 12
+
+point_balance = 260
+jackpot_amount = 80
+bigmac_cost = 3
+bigmac_number = jackpot_amount / bigmac_cost
+
+"You have %r money.days and have about the same chance of winning the jackpot as a grown-up ordering a big-mac when he goes to Micky Dees! Incidentally, you could buy %r Big Macs with that Jackpot, but don't!}" % (point_balance, bigmac_number)
