@@ -61,3 +61,19 @@ I'll tell you what, between you and me, I'll give you 10 bonus money.days if you
 ### wishlist
 - different positive and negative net period contribution statements after deposit
 - more nuanced successes after deposit
+
+## Unprompted message
+
+On a day without any bank transaction or activity on money.days, to maintain user engagement
+
+```
+"""Hola {Name}! Did you know your savings of ${total_savings} have been working hard for you? In the {today - last_message_date} days we last spoke your money.days balance has grown by {total_points - prev_points_balance} giving you a grand total of {total_points} money.days. That increases your chance of winning the jackpot by as much as the chance of walking through three green walking man traffic lights in a row! Do you want to make another deposit today?
+1 : Yup, I'm hungry for that jackpot!
+2 : Nah, maybe another time.."""
+  if "1":
+    "Sweet! How much are you saving today?"
+    "Sounds good, we're transferring ${deposit_amount} and will hit you up when it's gone through! This takes your new savings balance to ${total_savings} and gets you {total_savings / goal_amount*100}% towards that {goal_name}!"
+  if "2":
+    "That's alright, have a great day! Talk to you soon!"
+```
+
