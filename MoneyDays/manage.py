@@ -3,6 +3,8 @@ import os
 import sys
 
 if __name__ == "__main__":
+    sys.path.append('/home/mario/PycharmProjects/BMGF/MoneyDays')
+    sys.path.append('/home/mario/PycharmProjects/BMGF/MoneyDays/main')
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "MoneyDays.settings")
     try:
         from django.core.management import execute_from_command_line
