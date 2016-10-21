@@ -1,5 +1,5 @@
 # Pseudocode use-case (1)
-
+```
 [transaction notification received via Plaid:
   Trns{
     Time
@@ -24,8 +24,8 @@
       "Great! Don't forget that your group is counting on you to contribute {minimum_deposit - (excess + deposit_amount)} by {end_date}. We are transferring ${deposit_amount} and will let you know when it's gone through!"
 "You've saved ${total_savings balance}: {total_savings / goal_amount*100}% of the way to that {goal_name} you wanted."
 
- "You have {x} money.days and have {about the same chance of winning the jackpot as a grown-up ordering a big-mac when he goes to Micky Dees! Incidentally, you could buy {jackpot_amount/3} Big Macs with that Jackpot, but don't!}"
-
+"You have {x} money.days and have {about the same chance of winning the jackpot as a grown-up ordering a big-mac when he goes to Micky Dees! Incidentally, you could buy {jackpot_amount/3} Big Macs with that Jackpot, but don't!}"
+```
 
 ## wishlist
 - different responses for different amount of times that the User chooses option 2, or option 3 where deposit_amount < minimum_deposit (increasingly whiney)
@@ -33,4 +33,4 @@
   - funny expressions of lottery odds
   - time to goal where that is motivating (e.g. short term where goal_sum is reasonable)
 - if Trns within half a standard deviation of mean_time && Regular_amount being different from edge case inputs
-- regular input being different from a 
+- regular input being different from a
