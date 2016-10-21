@@ -1,5 +1,12 @@
 **Data Tables and Elements**:
 - Users
+  - User ID
+  - First Name
+  - Last Name
+  - Preferred Name
+  - Mobile phone number 
+  - email address
+  
 - Groups
 - User group membership
 - Contribution Ledger
