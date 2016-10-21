@@ -1,4 +1,6 @@
-# Pseudocode use-case (1)
+# Pseudocode Use-cases
+
+## Incoming deposit
 ```
 [transaction notification received via Plaid:
   Trns{
@@ -25,6 +27,13 @@
 "You've saved ${total_savings balance}: {total_savings / goal_amount*100}% of the way to that {goal_name} you wanted."
 
 "You have {x} money.days and have {about the same chance of winning the jackpot as a grown-up ordering a big-mac when he goes to Micky Dees! Incidentally, you could buy {jackpot_amount/3} Big Macs with that Jackpot, but don't!}"
+```
+
+## Friend makes a deposit
+
+```
+"Psst, one of your savings compatriots made a deposit today. Do you want to save a few bucks, to maximise your chances of winning and get you closer to getting that {goal_name} you wanted?"
+
 ```
 
 ## wishlist
