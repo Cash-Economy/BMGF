@@ -3,8 +3,6 @@
 
 # Note: text messages 1-5 are for illustrative purposes only, and the data elicited from them would in reality be drawn from the database
 # Note: consider when to link to site
-# Note: consider process flow -- perhaps using message count?  https://www.twilio.com/blog/2014/07/the-definitive-guide-to-sms-conversation-tracking.html
-# Note: how to capture variables from texts
 
 ## init
 from flask import Flask, request, redirect
@@ -25,9 +23,11 @@ resp.set_cookie('messagecount',value=str(messagecount),expires=expires.strftime(
 ## Message 1 (response)
 
 if messagecount == 0:
-    g_name =
+    def incoming_sms():
+        body = request.values.get('Body', None)
 
-    def sms_reply():
+        g_name = body
+
         resp=twiml.Response()
 
         resp.message("Hi %r! Welcome to money.days. I'm going to help you save with your friends, dynamically! But first, what's your family name?" % (g_name))
@@ -39,9 +39,11 @@ if messagecount == 0:
 
 ## Message 2 (response)
 elif messagecount == 1:
-    f_name =
+    def incoming_sms():
+        body = request.values.get('Body', None)
 
-    def sms_reply():
+        f_name = body
+
         resp=twiml.Response()
 
         resp.message("So, the name's %r, %r %r. From what I've heard about savings, a person is much more likely to be successful in their savings if they are saving *for* something. What are you saving up for?" % (f_name, g_name f_name))
@@ -53,19 +55,20 @@ elif messagecount == 1:
 
 ## Message 3 (repsonse)
 elif messagecount == 2:
-    goal_name =
-    goal_amount = 5000
+    def incoming_sms():
+        body = request.values.get('Body', None)
 
-    income_amount = 1500
+        goal_name = body
 
-    minimum_deposit = 200
-    optimal_deposit = minimum_deposit*1.1
-    optimal_pt_bonus = 50
-    savings_excess = 150
-    minimum_minimum_deposit = minimum_deposit - savings_excess
+        goal_amount = 5000
 
-    def sms_reply():
-        resp=twiml.Response()
+        income_amount = 1500
+
+        minimum_deposit = 200
+        optimal_deposit = minimum_deposit*1.1
+        optimal_pt_bonus = 50
+        savings_excess = 150
+        minimum_minimum_deposit = minimum_deposit - savings_excess
 
         resp.message("So, you're saving $%r, for %r! That's pretty funky, I'd like to save up for something like that!" % (goal_amount, goal_name))
 
@@ -89,10 +92,12 @@ elif messagecount == 2:
 
 # Message 6 (response)
 elif messagecount == 3:
-    mesage9 =
-    term_end_date = "30 October 2016"
+    def incoming_sms():
+        body = request.values.get('Body', None)
 
-    def sms_reply():
+        mesage9 = body
+        term_end_date = "30 October 2016"
+
         resp=twiml.Response()
 
         if message9 == 1:
@@ -113,10 +118,12 @@ elif messagecount == 3:
 
 # Message 7 (Response, only triggered on message9 == 3)
 elif messagecount == 4 and message9 == 3:
-    message10A =
-    superoptimal_point_bonus = 50
+    def incoming_sms():
+        body = request.values.get('Body', None)
 
-    def sms_reply():
+        message10A = body
+        superoptimal_point_bonus = 50
+
         resp=twiml.Response()
 
         if deposit_amount > optimal_deposit:
@@ -127,16 +134,21 @@ elif messagecount == 4 and message9 == 3:
         else:
             resp.message("Great! Don't forget that your group is counting on you to contribute %r by %r. We are transferring $%r and will let you know when it's gone through!" % (minimum_minimum_deposit, end_date, deposit_amount))
 
+    if __name__ == "__main__":
+        app.run(debug=True)
+
 # Message 8, 9 (continuation of Mesasage 6, or 7 if message9 == 3)
 elif messagecount == 5 and message9 == 3:
-    savings_balance = 1200
-    goal_achievement_ratio = (savings_balance / goal_amount * 100)
-    point_balance = 260
-    jackpot_amount = 80
-    bigmac_cost = 3
-    bigmac_number = jackpot_amount / bigmac_cost
+        def incoming_sms():
+            body = request.values.get('Body', None)
 
-    def sms_reply():
+        savings_balance = 1200
+        goal_achievement_ratio = (savings_balance / goal_amount * 100)
+        point_balance = 260
+        jackpot_amount = 80
+        bigmac_cost = 3
+        bigmac_number = jackpot_amount / bigmac_cost
+
         resp=twiml.Response()
 
         resp.message("You've saved $%r: %r of the way to that %r you wanted." % (savings_balance, goal_achievement_ratio, goal_name))
@@ -145,15 +157,22 @@ elif messagecount == 5 and message9 == 3:
 
         return str(resp)
 
-elif messagecount == 4 and message9 != 3:
-    savings_balance = 1200
-    goal_achievement_ratio = (savings_balance / goal_amount * 100)
-    point_balance = 260
-    jackpot_amount = 80
-    bigmac_cost = 3
-    bigmac_number = jackpot_amount / bigmac_cost
+    if __name__ == "__main__":
+        app.run(debug=True)
 
-    def sms_reply():
+# alt
+
+elif messagecount == 4 and message9 != 3:
+        def incoming_sms():
+            body = request.values.get('Body', None)
+
+        savings_balance = 1200
+        goal_achievement_ratio = (savings_balance / goal_amount * 100)
+        point_balance = 260
+        jackpot_amount = 80
+        bigmac_cost = 3
+        bigmac_number = jackpot_amount / bigmac_cost
+
         resp=twiml.Response()
 
         resp.message("You've saved $%r: %r of the way to that %r you wanted." % (savings_balance, goal_achievement_ratio, goal_name))
