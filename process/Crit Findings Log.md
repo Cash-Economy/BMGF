@@ -9,6 +9,10 @@
 
 3) Play with the appropriate incentive if using a lottery system.
 
+4) Consider the person in the savings group who has seen our product and like it--we have to provide a mechanism to help them sell this product to their savings group.
+
+5) Central product is in user experience.
+
 ## Call with Ryan Falvey, Financial Solutions Lab CFSI
   + "Prize-Linked Savings" are not new and are being implemented by several organizations:
     + CommonWealth (formerly Doorway to Dreams) uses [Save to Win](http://www.savetowin.org/), a lottery based savings incentive scheme operated by local credit unions
