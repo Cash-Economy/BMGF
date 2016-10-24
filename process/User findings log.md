@@ -1,3 +1,12 @@
+# Interview with restaurant staff
+
+Location | *Manhattan / Chelsea*
+
+1. The interview took place with restaurant staff in a Chelsea restaurant who are primarily compensated with cash tips and income is only supplemented by cheques from the restaurant when staff are earning below minimum wage in tips
+2. Staff visit the bank several times a week to deposit wages
+3. Confirmation that goal-based saving would be much more effective to motivate good savings behavior than without personalized goals
+
+
 # Interviews outside of cheque cashing shop
 
 Location | *Manhattan / Chelsea*
