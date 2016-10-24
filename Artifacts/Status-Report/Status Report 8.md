@@ -25,7 +25,7 @@ Below is our status report for the week of 10/17 to 10/23. All of the artifacts 
 ## The week ahead
 
 * Debug code and prepare all elements of UI for user testing
-* Conduct to do user smile tests to get reactions to elements of UI and functionality
+* Conduct user smile tests to get reactions to elements of UI and functionality
 * Set up focus groups to test full product loop with a savings group
 * Continue to follow up on contacts provided by advisors
 
