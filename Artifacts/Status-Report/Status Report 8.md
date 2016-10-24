@@ -18,7 +18,8 @@ Below is our status report for the week of 10/17 to 10/23. All of the artifacts 
 * Developed `money.days` product prototype:
   * Created stubbed chatbot UI - add `money.days` on Facebook Messenger to try it out
   * Wrote and implemented [code repository](https://github.com/Cash-Economy/BMGF/tree/master/MoneyDays) for web-based UI with functional back-end integration using Python DJANGO framework
-  * Registered domain [moneydays.us](http://www.moneydays.us)
+  * Registered domain and deployed code at [moneydays.us](http://www.moneydays.us)
+
 ![Snapshot of Web UI](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/Snapshot%20of%20Web%20UI.png)
 
 ## The week ahead
