@@ -7,7 +7,7 @@ Below is our status report for the week of 10/17 to 10/23. All of the artifacts 
 
 ## The week behind
 
-* Conducted user research interviews with low-income salaried workers and restaurant workers in Chelsea - [notes found here](https://github.com/Cash-Economy/BMGF/blob/master/research/Vox%20Populi.md)
+* Conducted user research interviews with restaurant workers in Chelsea - [notes found here](https://github.com/Cash-Economy/BMGF/blob/master/research/Vox%20Populi.md)
 * Updated [product loop](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/Product%20Loop%202016-10-20.pptx) based on new iterations of product
 * Built [market sizing model](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/Money%20Days%20-%20Market%20Sizing.xlsx) to estimate user acquisition in US and value of savings generated
 * Revised frameworks for product development:
