@@ -3,15 +3,15 @@
 *Feedback from conversations with external stakeholders*
 
 ## Alumni crit No. 1
-1) Need to figure out the right incentive. Perhaps we can incent like Oscar Insurance does -- $1 a day (or whatever amt works for us) for a positive balance above a certain amt. Oscar pays $1/day for 10,000 steps walked.
+- Need to figure out the right incentive. Perhaps we can incent like Oscar Insurance does -- $1 a day (or whatever amt works for us) for a positive balance above a certain amt. Oscar pays $1/day for 10,000 steps walked.
 
-2) Don't necessarily need to stick to existing savings groups. We can also use the model to incent people new to the concept to create a savings pool/circle with their friends -- and rely on their ability to hold each other accountable.
+- Don't necessarily need to stick to existing savings groups. We can also use the model to incent people new to the concept to create a savings pool/circle with their friends -- and rely on their ability to hold each other accountable.
 
-3) Play with the appropriate incentive if using a lottery system.
+- Play with the appropriate incentive if using a lottery system.
 
-4) Consider the person in the savings group who has seen our product and like it--we have to provide a mechanism to help them sell this product to their savings group.
+- Consider the person in the savings group who has seen our product and like it--we have to provide a mechanism to help them sell this product to their savings group.
 
-5) Central product is in user experience.
+- Central product is in user experience.
 
 ## Call with Ryan Falvey, Financial Solutions Lab CFSI
   + "Prize-Linked Savings" are not new and are being implemented by several organizations:
