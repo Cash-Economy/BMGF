@@ -24,15 +24,17 @@ Below is our status report for the week of 10/17 to 10/23. All of the artifacts 
 
 ## The week ahead
 
-* Develop product during sprint on 10/20
-* Continue to speak to potential users of product
+* Debug code and prepare all elements of UI for user testing
+* Conduct to do user smile tests to get reactions to elements of UI and functionality
+* Set up focus groups to test full product loop with a savings group
 * Continue to follow up on contacts provided by advisors
 
 ## Key learnings from retro
 
-* Need speak to more potential users and understand their painpoints and savings goals
-* Need to develop alternative views of product
+* Need speak to potential users and validate product loop and UI elements
+* Need to identify captive audiences and develop plan for onboarding new users
 
 ## Risks
 
-* If we don't test the product with the users the product might not be viable.
+* If we don't test the product with the users the product might not be viable
+* Validation is still needed to ensure product loop is self-reinforcing
