@@ -16,9 +16,10 @@ Below is our status report for the week of 10/17 to 10/23. All of the artifacts 
   * Identified [data tables and elements](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/Database%20tables%20and%20elements.md) for backend database development
   * Identified [methods](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/methods_to_build.mdown) required to build working product loop
 * Developed `money.days` product prototype:
-  * Registered domain [moneydays.us](http://www.moneydays.us)
   * Created stubbed chatbot UI - add `money.days` on Facebook Messenger to try it out
   * Wrote and implemented [code repository](https://github.com/Cash-Economy/BMGF/tree/master/MoneyDays) for web-based UI with functional back-end integration using Python DJANGO framework
+  * Registered domain [moneydays.us](http://www.moneydays.us)
+![Snapshot of Web UI](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/Snapshot%20of%20Web%20UI.png)
 
 ## The week ahead
 
