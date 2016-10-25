@@ -11,7 +11,7 @@ Below is our status report for the week of 10/17 to 10/23. All of the artifacts 
 * Updated [product loop](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/Product%20Loop%202016-10-20.pptx) based on new iterations of product
 * Built [market sizing model](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/Money%20Days%20-%20Market%20Sizing.xlsx) to estimate user acquisition in US and value of savings generated
 * Revised frameworks for product development:
-  * Updated ![technical architecture](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/System%20Architecture%20Diagram%20-%202016-10-20.pdf) during sprint
+  * Updated [technical architecture](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/System%20Architecture%20Diagram%20-%202016-10-20.pdf) during sprint
   * Developed [pseudocode](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/pseudocode%20use-cases.md) for several product use cases to be implemented using Twilio API
   * Identified [data tables and elements](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/Database%20tables%20and%20elements.md) for backend database development
   * Identified [methods](https://github.com/Cash-Economy/BMGF/blob/master/sprint2workbook/methods_to_build.mdown) required to build working product loop
