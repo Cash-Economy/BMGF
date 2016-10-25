@@ -1,3 +1,7 @@
 .idea
 .env
-
+MoneyDays/MoneyDays/keys.py
+MoneyDays/MoneyDays/__pycache__/urls.cpython-35.pyc
+MoneyDays/MoneyDays/__pycache__/wsgi.cpython-35.pyc
+MoneyDays/main/__pycache__/
+MoneyDays/main/migrations/__pycache__/
