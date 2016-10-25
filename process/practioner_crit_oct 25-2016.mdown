@@ -6,15 +6,19 @@ Raul - MapStudio - parsons teacher for 12 yrs, digital tech program, transfer te
 
 -----
 
-1) start with what moneydays is right away -- moneydays is a flexible, formalised savings, etc..
+1) Start with what moneydays is right away -- moneydays is a flexible, formalised savings, etc..
 
-2) who is your audience. the fundamentals of who you're talking to is missing.
+2) Who is your audience. The fundamentals of who you're talking to is missing.
+	+ Young savers? Or others?
+	+ Is fun tone appropriate for your target? 
 
-3) what does savings mean?
-	- is it something that rich people do?
-	- is it something that ill do when i grow up?
-	- we're changing someone's perception of saving
+3) What does savings mean to your audience?
+	+ Is it something that rich people do?
+	+ Is it something that I'll do when I grow up?
+	+ We're changing someone's perception of saving
 
-4) what are friends saving? do we want this? kind of foolish
+4) What are friends saving? Do we want this? Kind of foolish
+	+ Be sensitive if sharing friends' data
 
-5) branding perspective: fun tone is not coming through at all.
+5) Branding perspective: fun tone is not coming through at all.
+	+ Keep branding consistent across ppt, demo, tone of messages
