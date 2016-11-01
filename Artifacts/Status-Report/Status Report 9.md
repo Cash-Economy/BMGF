@@ -2,10 +2,6 @@ Below is our status report for the week of 10/24 to 10/31. All of the artifacts 
 
 ## Weekly commit graph
 
-![Commit graph 7](Below is our status report for the week of 10/17 to 10/23. All of the artifacts have been made public and can be found in our [GitHub page](https://github.com/Cash-Economy/BMGF)
-
-## Weekly commit graph
-
 ![Commit graph 2](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/misc/Commit%20graph%206.png)
 
 ## The week behind
