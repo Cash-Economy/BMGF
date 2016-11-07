@@ -35,7 +35,9 @@ We mocked up a new home / splash screen that has a more deliberate "I opened the
 
 We mocked up a new social / prize screen that gives new surprises as you use the app (e.g. badges) as well as thought of some "get hooked" design details, such as audible interest payments (coin drops for each penny earned), and tickerboard new investment.
 
-(***AAMER TO INSERT sketch***)
+![engage sketches jco](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/TUX%20Sketches%2011.6.16/Engage%20sketch%20(JCO).jpg)
+![engage sketches ajl](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/TUX%20Sketches%2011.6.16/Engage%20sketch%20(AJL).jpg)
+![engage sketches ash](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/TUX%20Sketches%2011.6.16/Engage%20sketch%20(ASH).jpg)
 
 # Exit
 
