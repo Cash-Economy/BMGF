@@ -1,4 +1,4 @@
-# moneydays **TOTAL USER EXPERIENCE**^TM map
+# moneydays **TOTAL USER EXPERIENCE**<sup>TM</sup> map
 
 * Entice
 * Enter
