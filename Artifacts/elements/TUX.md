@@ -15,7 +15,7 @@ e.g.
 * Dunlop Volleys and Air Jordans
 * Baseball Cap and Graduation Cap
 
-![Attempt2hand](https://github.com/Cash-Economy/BMGF/blob/master/design/logomk2.0.png "Attempt2hand") led to ![Attempt2](https://github.com/Cash-Economy/BMGF/blob/master/design/logomk2.png "Attempt2")
+![Attempt2hand](https://github.com/Cash-Economy/BMGF/blob/master/design/logomk2.0.png "Attempt2hand") ⃗  ![Attempt2](https://github.com/Cash-Economy/BMGF/blob/master/design/logomk2.png "Attempt2")
 
 # Enter
 
