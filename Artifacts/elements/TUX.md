@@ -15,7 +15,7 @@ e.g.
 * Dunlop Volleys and Air Jordans
 * Baseball Cap and Graduation Cap
 
-![attempts at logo](https://github.com/Cash-Economy/BMGF/blob/master/design/Logo%20mk%202.svg "Attempt2")
+![attempts at logo](https://github.com/Cash-Economy/BMGF/blob/master/design/Logo%20mk%202.pdf "Attempt2")
 
 
 # Enter
