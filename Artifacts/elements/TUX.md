@@ -10,9 +10,10 @@
 
 An advertising campaign consisting of many split posters in a row with old, and slightly better versions of things, with the moneydays.us logo at the bottom.
 
-e.g.  1992 Corolla and 2015 Corolla
-      Dunlop Volleys and Air Jordans
-      Baseball Cap and Graduation Cap
+e.g.  
+* 1992 Corolla and 2015 Corolla
+* Dunlop Volleys and Air Jordans
+* Baseball Cap and Graduation Cap
 
 (***AAMER TO INSERT LOGO of choice***)
 
