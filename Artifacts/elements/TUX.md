@@ -19,11 +19,17 @@ e.g.
 
 # Enter
 
-We scaffolded (see below ***AAMER TO INSERT***) a set of user onboarding screens that explain our product as well as extract relevant information from the customer.
+We scaffolded a set of user onboarding screens that explain our product as well as extract relevant information from the customer.
+
+![enter sketches jco](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/TUX%20Sketches%2011.6.16/Enter%20sketch%20(JCO).jpg)
+![enter sketches ajl](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/TUX%20Sketches%2011.6.16/Enter%20sketch%20(AJL).jpg)
+![enter sketches ash](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/TUX%20Sketches%2011.6.16/Enter%20sketch%20(ASH).jpg)
 
 # Engage
 
-We mocked up a new home / splash screen that has a more deliberate "I opened the app to see this" and call to action (see below ***AAMER TO INSERT both sketch and mockup***).
+We mocked up a new home / splash screen that has a more deliberate "I opened the app to see this" and call to action (see below.
+
+![engage screen 1](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/TUX%20Sketches%2011.6.16/Engage%20screen%201.png) ⃗  ![engage screen 2](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/TUX%20Sketches%2011.6.16/Engage%20screen%202.png)   ![engage screen 3](https://github.com/Cash-Economy/BMGF/blob/master/Artifacts/elements/product-sketches/TUX%20Sketches%2011.6.16/Engage%20screen%203.png)
 
 # Extend
 
