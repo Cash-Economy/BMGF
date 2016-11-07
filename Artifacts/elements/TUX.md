@@ -16,7 +16,7 @@ e.g.
 * Baseball Cap and Graduation Cap
 
 ![Attempt2](https://github.com/Cash-Economy/BMGF/blob/master/design/logomk2.png "Attempt2")
-
+![Attempt2hand](https://github.com/Cash-Economy/BMGF/blob/master/design/logomk2.0.png "Attempt2hand")
 
 # Enter
 
