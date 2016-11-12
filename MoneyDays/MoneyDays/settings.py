@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-from MoneyDays.MoneyDays import keys
+from MoneyDays import keys
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
-    'main'
+    'rest_framework',
+    'main',
 
 ]
 
@@ -125,3 +126,9 @@ LOGIN_URL = "/login/"
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/vendors/'
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
+    'PAGE_SIZE': 10
+}
+

@@ -96,27 +96,27 @@ class MoneyUser(AbstractBaseUser, PermissionsMixin):
         send_mail(subject, message, from_email, [self.email])
 
 
-class Pool(models.Model):
-    name = models.CharField(_('Money Pool Name'), max_length=30)
-    minimum_deposit = models.FloatField(_("Minimum Deposit"))
-    creation_date = models.DateTimeField(blank=True, default=timezone.now)
-
-
-class PoolMembership(models.Model):
-    user = models.ForeignKey(MoneyUser, related_name='pools')
-    group = models.ForeignKey(Pool, related_name='users')
-    date_joined = models.DateTimeField(blank=True, default=timezone.now)
+# class Pool(models.Model):
+#     name = models.CharField(_('Money Pool Name'), max_length=30)
+#     minimum_deposit = models.FloatField(_("Minimum Deposit"))
+#     creation_date = models.DateTimeField(blank=True, default=timezone.now)
+#
+#
+# class PoolMembership(models.Model):
+#     user = models.ForeignKey(MoneyUser, related_name='pools')
+#     group = models.ForeignKey(Pool, related_name='users')
+#     date_joined = models.DateTimeField(blank=True, default=timezone.now)
 
 
 class UserContribution(models.Model):
     user = models.ForeignKey(MoneyUser, related_name='contributions')
-    group = models.ForeignKey(Pool, related_name='contributions')
+    # group = models.ForeignKey(Pool, related_name='contributions')
     txn_amount = models.FloatField()
     balance = models.FloatField(blank=True)
     time = models.DateTimeField(default=timezone.now)
 
     def save(self, *args, **kwargs):
-        contribs = UserContribution.objects.filter(user=self.user, group=self.group).order_by('-time')
+        contribs = UserContribution.objects.filter(user=self.user).order_by('-time')
         if contribs:
             bal = contribs[0].balance
             print("He has contributions")
@@ -129,7 +129,7 @@ class UserContribution(models.Model):
 
 class UserPointMovement(models.Model):
     user = models.ForeignKey(MoneyUser, related_name='pointsmovements')
-    group = models.ForeignKey(Pool, related_name='pointsmovements')
+    # group = models.ForeignKey(Pool, related_name='pointsmovements')
     txn_amount = models.IntegerField()
     balance = models.IntegerField(blank=True)
     time = models.DateTimeField(default=timezone.now)
@@ -146,6 +146,34 @@ class UserPointMovement(models.Model):
             self.balance = self.txn_amount
         super(UserPointMovement, self).save(*args, **kwargs)
 
+
+class Lottery(models.Model):
+    name = models.CharField(_('Lottery Name'), max_length=30)
+    description = models.CharField(_('Lottery description'), max_length=200)
+    total_tickets = models.IntegerField()
+
+
+class UserLotteryTicketMovement(models.Model):
+    user = models.ForeignKey(MoneyUser)
+    lottery = models.ForeignKey(Lottery)
+    txn_amount = models.IntegerField()
+    balance = models.IntegerField(blank=True)
+    time = models.DateTimeField(default=timezone.now)
+
+    def save(self, *args, **kwargs):
+        contribs = UserLotteryTicketMovement.objects.filter(user=self.user, group=self.group).order_by('-time')
+        if contribs:
+            # We take the first
+            bal = contribs[0].balance
+            print("He has tickets")
+            print("Last lottery ticket balance: " + str(bal))
+            self.balance = bal + self.txn_amount
+        else:
+            self.balance = self.txn_amount
+        super(UserLotteryTicketMovement, self).save(*args, **kwargs)
+
+
+# Lotery Users
 
 class UserGoal(models.Model):
     user = models.ForeignKey(MoneyUser, related_name='goals')

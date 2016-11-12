@@ -4,9 +4,9 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.urls import reverse
 from twilio.rest import TwilioRestClient
-from main.models import PoolMembership, UserContribution, UserPointMovement, UserGoal
+from main.models import UserContribution, UserPointMovement, UserGoal
 
-from MoneyDays.MoneyDays.keys import ACCOUNT_SID, AUTH_TOKEN
+from MoneyDays.keys import ACCOUNT_SID, AUTH_TOKEN
 
 
 def index(request):
@@ -56,13 +56,13 @@ def register(request):
 
 @login_required
 def user_detail(request, pk_user=None):
-    poolMembership = PoolMembership.objects.filter(user=request.user)[0]
-    pool = poolMembership.group
+    # poolMembership = PoolMembership.objects.filter(user=request.user)[0]
+    # pool = poolMembership.group
 
     print("User: " + request.user.first_name)
-    print("Pool Name: " + pool.name)
+    # print("Pool Name: " + pool.name)
 
-    contributions = UserContribution.objects.filter(user=request.user, group=pool).order_by('-time')
+    contributions = UserContribution.objects.filter(user=request.user).order_by('-time')
 
     money_balances = []
     for cont in contributions:
@@ -72,7 +72,7 @@ def user_detail(request, pk_user=None):
         time = int(cont.time.timestamp() * 1000)
         money_balances.append((time, cont.balance))
 
-    pointmovements = UserPointMovement.objects.filter(user=request.user, group=pool).order_by('-time')
+    pointmovements = UserPointMovement.objects.filter(user=request.user).order_by('-time')
 
     point_balances = []
     for cont in pointmovements:
@@ -120,13 +120,13 @@ def make_payment(request):
         return redirect(reverse('user_detail', kwargs={"pk_user": request.user.id}))
 
     amount = request.POST["amount"]
-    poolMembership = PoolMembership.objects.filter(user=request.user)[0]
-    pool = poolMembership.group
+    # poolMembership = PoolMembership.objects.filter(user=request.user)[0]
+    # pool = poolMembership.group
 
-    contrib = UserContribution(user=request.user, group=pool, txn_amount=float(amount))
+    contrib = UserContribution(user=request.user, txn_amount=float(amount))
     contrib.save()
 
-    contrib = UserPointMovement(user=request.user, group=pool, txn_amount=0)
+    contrib = UserPointMovement(user=request.user, txn_amount=0)
     contrib.save()
 
     client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)

@@ -3,7 +3,7 @@ from django.contrib.auth.models import Group
 from django.contrib.auth.admin import UserAdmin
 from django.utils.translation import ugettext_lazy as _
 
-from .models import MoneyUser, Pool, PoolMembership, UserContribution, UserPointMovement, UserGoal
+from .models import MoneyUser, UserContribution, UserPointMovement, UserGoal, UserLotteryTicketMovement, Lottery
 from .forms import MoneyUserChangeForm, MoneyUserCreationForm
 
 
@@ -34,37 +34,41 @@ class MoneyUserAdmin(UserAdmin):
     ordering = ('email',)
 
 
-class PoolAdmin(admin.ModelAdmin):
-    list_display = ('name', 'minimum_deposit', 'creation_date')
-
-
-class PoolMembershipAdmin(admin.ModelAdmin):
-    list_display = ('user', 'group', 'date_joined')
+# class PoolAdmin(admin.ModelAdmin):
+#     list_display = ('name', 'minimum_deposit', 'creation_date')
+#
+#
+# class PoolMembershipAdmin(admin.ModelAdmin):
+#     list_display = ('user', 'group', 'date_joined')
 
 
 class UserContributionAdmin(admin.ModelAdmin):
-    list_display = ('user', 'get_name', 'txn_amount', 'balance', 'time')
-
-    def get_name(self, obj):
-        return obj.group.name
-
-    get_name.short_description = 'Pool Name'
-    get_name.admin_order_field = 'group__name'
+    list_display = ('user', 'txn_amount', 'balance', 'time')
 
 
 class UserPointMovementAdmin(admin.ModelAdmin):
-    list_display = ('user', 'group', 'txn_amount', 'balance', 'time')
+    list_display = ('user', 'txn_amount', 'balance', 'time')
 
 
 class UserGoalAdmin(admin.ModelAdmin):
     list_display = ('user', 'name', 'description', 'amount')
 
 
+class LotteryAdmin(admin.ModelAdmin):
+    list_display = ('name', 'description', 'total_tickets')
+
+
+class UserLotteryTicketMovementAdmin(admin.ModelAdmin):
+    list_display = ('user', 'lottery', 'txn_amount', 'balance', 'time')
+
+
 admin.site.register(MoneyUser, MoneyUserAdmin)
 admin.site.unregister(Group)
 
-admin.site.register(Pool, PoolAdmin)
-admin.site.register(PoolMembership, PoolMembershipAdmin)
+# admin.site.register(Pool, PoolAdmin)
+# admin.site.register(PoolMembership, PoolMembershipAdmin)
 admin.site.register(UserContribution, UserContributionAdmin)
 admin.site.register(UserPointMovement, UserPointMovementAdmin)
 admin.site.register(UserGoal, UserGoalAdmin)
+admin.site.register(UserLotteryTicketMovement, UserLotteryTicketMovementAdmin)
+admin.site.register(Lottery, LotteryAdmin)
