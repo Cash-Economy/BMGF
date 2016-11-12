@@ -29,7 +29,7 @@ urlpatterns = [
 
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 
-    # url(r'^api/$', apiviews.api_root),
+    url(r'^api/$', apiviews.api_root),
 
     url(r'^api/users/$', apiviews.UserList.as_view(), name='moneyuser-list'),
     url(r'^api/users/(?P<pk_user>[0-9]+|self)/$', apiviews.UserDetail.as_view(), name='moneyuser-detail'),
