@@ -1,9 +1,19 @@
 from django.contrib.auth import get_user_model
 from rest_framework import serializers
+from rest_framework.reverse import reverse
 
 from .models import UserContribution
 
 User = get_user_model()
+
+
+class ContributionHyperlink(serializers.HyperlinkedIdentityField):
+    def get_url(self, obj, view_name, request, format):
+        url_kwargs = {
+            'pk_user': obj.user_id,
+            'pk_contribution': obj.id
+        }
+        return reverse(view_name, kwargs=url_kwargs, request=request, format=format)
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -43,6 +53,9 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
 
 
 class UserContributionSerializer(serializers.HyperlinkedModelSerializer):
+    url = ContributionHyperlink(read_only=True, view_name="contribution-detail")
+    user = serializers.HyperlinkedRelatedField(read_only=True, lookup_field='id', lookup_url_kwarg='pk_user', view_name='moneyuser-detail')
+
     class Meta:
         model = UserContribution
         fields = ('url', 'txn_amount', 'balance', 'time')

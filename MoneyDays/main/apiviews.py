@@ -46,7 +46,6 @@ class UserDetail(generics.RetrieveUpdateAPIView):
         return super(UserDetail, self).get_object()
 
 
-
 @api_view(('GET',))
 def api_root(request, format=None):
     return Response({
