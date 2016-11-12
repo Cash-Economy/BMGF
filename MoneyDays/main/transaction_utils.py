@@ -1,5 +1,5 @@
 from os.path import dirname, abspath
-
+import pandas as pd
 
 # Here we do the IO readings, whatever that is. Right now is just reading a csv file.
 def read_transactions():
@@ -12,7 +12,8 @@ def read_transactions():
 
 
 def extract_dataframe(json):
-    pass
+    return pd.read_json(json)
+
 
 
 def get_historic_stats(data, date_point):
@@ -24,4 +25,7 @@ def get_last_cash_injection(data):
 
 
 def make_suggestions(pk_user):
-    return read_transactions()
+    json = read_transactions()
+    data = extract_dataframe(json)
+    print(data)
+    return json
