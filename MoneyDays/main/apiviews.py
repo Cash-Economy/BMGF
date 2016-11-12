@@ -10,8 +10,10 @@ from twilio.rest import TwilioRestClient
 from MoneyDays.keys import ACCOUNT_SID, AUTH_TOKEN
 from .models import UserContribution, UserPointMovement
 from .permissions import IsOwnerOrStaff, NotAllowRegisterAccountToAuthenticated
-from .serializers import UserSerializer, UserRegistrationSerializer, UserContributionSerializer, \
-    UserContributionCreationSerializer
+from .serializers import UserSerializer, UserRegistrationSerializer, UserContributionSerializer,UserContributionCreationSerializer
+from .permissions import IsOwnerOrStaff, NotAllowRegisterAccountToAuthenticated
+from .serializers import UserSerializer, UserRegistrationSerializer
+from .transaction_utils import make_suggestions
 
 User = get_user_model()
 
@@ -116,6 +118,13 @@ class UserContributionDetail(generics.RetrieveUpdateDestroyAPIView):
 @api_view(('GET',))
 def api_root(request, format=None):
     return Response({
-        'users': reverse('user-list', request=request, format=format),
+        'users': reverse('moneyuser-list', request=request, format=format),
         # 'measurements': reverse('measurement-list', request=request, format=format)
     })
+
+
+@api_view(('GET',))
+def get_user_saving_recommendations(request, pk_user):
+    print(pk_user)
+    d = {'d': make_suggestions(pk_user)}
+    return Response(data=d)
