@@ -31,6 +31,8 @@ urlpatterns = [
 
     url(r'^api/$', apiviews.api_root),
 
+    url(r'^api/users/(?P<pk_user>[0-9]+)/savings$', apiviews.get_user_saving_recommendations),
+
     url(r'^api/users/$', apiviews.UserList.as_view(), name='moneyuser-list'),
     url(r'^api/users/(?P<pk_user>[0-9]+|self)/$', apiviews.UserDetail.as_view(), name='moneyuser-detail'),
     # url(r'^api/users/(?P<pk_user>[0-9]+)/contributions/$', apiviews.UserContributions.as_view(), name='measurement-list'),
