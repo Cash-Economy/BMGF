@@ -25,3 +25,31 @@
   + The financial health space is already crowded and competitive, but user engagement is still weak for many existing solutions.
   + *Therefore, our efforts will be best channeled towards driving user engagement targeted towards a specific user behavior - saving.*
   + Develop measurement & targets for engagement and user behavior.
+
+## Practioner Crit - Oct 25/2016
+
+Joe Pantigoso - SAP (Business Software) -- brand startegist, how you're defining your brand, etc.
+
+Raul - MapStudio - parsons teacher for 12 yrs, digital tech program, transfer tech program
+
+-----
+
+1. Start with what moneydays is right away -- moneydays is a flexible, formalised savings, etc..
+
+2. Who is your audience. The fundamentals of who you're talking to is missing.
+	1. Young savers? Or others?
+	2. Is fun tone appropriate for your target? 
+
+3. What does savings mean to your audience?
+	1. Is it something that rich people do?
+	2. Is it something that I'll do when I grow up?
+	3. We're changing someone's perception of saving
+
+4. What are friends saving? Do we want this? Kind of foolish
+	1. Be sensitive if sharing friends' data
+
+5. Branding perspective: fun tone is not coming through at all.
+	1. Keep branding consistent across ppt, demo, tone of messages
+	2. Brand = relevant + different + credible
+	3. Visual identity = how you look, how you talk, how you feel
+	4. Tie user touchpoints back to customer journey
