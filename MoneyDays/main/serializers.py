@@ -17,8 +17,7 @@ class ContributionHyperlink(serializers.HyperlinkedIdentityField):
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
-    url = serializers.HyperlinkedIdentityField(read_only=True, lookup_url_kwarg='pk_user', lookup_field='id',
-                                               view_name='moneyuser-detail')
+    url = serializers.HyperlinkedIdentityField(read_only=True, lookup_url_kwarg='pk_user', lookup_field='id', view_name='moneyuser-detail')
 
     class Meta:
         model = User
@@ -58,4 +57,10 @@ class UserContributionSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = UserContribution
-        fields = ('url', 'txn_amount', 'balance', 'time')
+        fields = ('url', 'user', 'txn_amount', 'balance', 'time')
+
+
+class UserContributionCreationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserContribution
+        fields = ('txn_amount',)

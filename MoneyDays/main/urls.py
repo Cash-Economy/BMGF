@@ -33,7 +33,7 @@ urlpatterns = [
 
     url(r'^api/users/$', apiviews.UserList.as_view(), name='moneyuser-list'),
     url(r'^api/users/(?P<pk_user>[0-9]+|self)/$', apiviews.UserDetail.as_view(), name='moneyuser-detail'),
-    # url(r'^api/users/(?P<pk_user>[0-9]+)/contributions/$', apiviews.UserContributions.as_view(), name='measurement-list'),
-    # url(r'^api/users/(?P<pk_user>[0-9]+)/measurements/(?P<pk_measurement>[0-9]+)/$', views.UserMeasurementDetail.as_view(), name='measurement-detail'),
+    url(r'^api/users/(?P<pk_user>[0-9]+)/contributions/$', apiviews.UserContributionList.as_view(), name='contribution-list'),
+    url(r'^api/users/(?P<pk_user>[0-9]+)/contributions/(?P<pk_contribution>[0-9]+)/$', apiviews.UserContributionDetail.as_view(), name='contribution-detail'),
     # url(r'^test$', views.test),
 ]

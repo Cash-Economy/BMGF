@@ -135,7 +135,7 @@ class UserPointMovement(models.Model):
     time = models.DateTimeField(default=timezone.now)
 
     def save(self, *args, **kwargs):
-        contribs = UserPointMovement.objects.filter(user=self.user, group=self.group).order_by('-time')
+        contribs = UserPointMovement.objects.filter(user=self.user).order_by('-time')
         if contribs:
             # We take the first
             bal = contribs[0].balance
