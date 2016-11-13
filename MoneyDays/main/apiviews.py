@@ -152,6 +152,5 @@ def api_root(request, format=None):
 
 @api_view(('GET',))
 def get_user_saving_recommendations(request, pk_user):
-    print(pk_user)
-    d = {'d': make_suggestions(pk_user)}
+    d = {'suggestion': make_suggestions(int(pk_user))}
     return Response(data=d)
