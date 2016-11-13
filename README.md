@@ -22,7 +22,7 @@ This is the repository for work in process artifacts for Autumn 2016 "Product St
 - [Johanan Ottensooser](https://au.linkedin.com/in/jottensooser) | [@oatsandsugar](https://github.com/oatsandsugar) | Tech LLM Candidate
 - [Mario Rial](https://www.linkedin.com/in/mariorial/en) | [@MarioRial22](https://github.com/MarioRial22) CS Candidate
 
-With special thanks to our good friends Moises Baly and Sindhu Babu for their participation in the [FinTech 2016 Hackathon](https://fintechhackathon2016.splashthat.com/) for team moneydays.
+With special thanks to our good friends Moises Baly and [Sindhu Babu](https://www.linkedin.com/in/sindhu-s-babu) for their participation in the [FinTech 2016 Hackathon](https://fintechhackathon2016.splashthat.com/) for team moneydays.
 
 ## Our [Project Plan](https://docs.google.com/a/cornell.edu/spreadsheets/d/1T09RqzKAFhpwzhwkpHzgbZmC5lsfLfuER64F3gPBU5w/edit?usp=sharing)
 So far, all is going according to plan.
