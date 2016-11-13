@@ -7,8 +7,8 @@ angular.module('app.routes', [])
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-    
-  
+
+
 
       .state('tabsController.savePage', {
     url: '/savepage',
@@ -25,7 +25,7 @@ angular.module('app.routes', [])
     views: {
       'tab2': {
         templateUrl: 'templates/lotteryPage.html',
-        controller: 'lotteryPageCtrl'
+        controller: 'savePageCtrl'
       }
     }
   })
@@ -35,7 +35,7 @@ angular.module('app.routes', [])
     views: {
       'tab3': {
         templateUrl: 'templates/socialPage.html',
-        controller: 'socialPageCtrl'
+        controller: 'savePageCtrl'
       }
     }
   })
@@ -43,7 +43,7 @@ angular.module('app.routes', [])
   .state('tabsController', {
     url: '/page1',
     templateUrl: 'templates/tabsController.html',
-    abstract:true
+    controller: 'savePageCtrl'
   })
 
   .state('withdrawPage', {
@@ -66,6 +66,6 @@ angular.module('app.routes', [])
 
 $urlRouterProvider.otherwise('/page1/savepage')
 
-  
+
 
 });

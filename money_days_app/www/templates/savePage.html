@@ -1,7 +1,7 @@
 <ion-view title="" id="savePage">
   <ion-content padding="false" class="has-header">
     <div class="circleMain saveCircle">
-      <p class="totalSaved">${{ totalSaved }}</p>
+      <p class="totalSaved" >${{ totalSaved }}</p>
       <p class="totalSavedtext">saved</p>
     </div>
     <div class="progress">
@@ -13,15 +13,17 @@
       <div class="cards"><img src="img/Post2.jpg" alt="Smiley face" class="cardsImg"></div>
       <div class="cards"><img src="img/Post3.jpg" alt="Smiley face" class="cardsImg"></div>
     </div>
-    <div id="savePage-button-bar1" class="button-bar saveBar">
-      <button id="savePage-button4" class="button button-block button-circle saveBarButtons" on-touch="less()">-</button>
-      <button id="savePage-button6" class="button button-block button-circle saveBarButtons" on-touch="more()">+</button>
-    </div>
-    <div class="saveButtonBar">
-      <button id="savePage-button5" class="button button-block saveButton" on-touch="save()">
-        <div class="saveButtonAmount">${{ saveAmount }}</div>
-        <div class="saveButtonSave">Save</div>
-      </button>
-    </div>
+    <!-- <div class=saveBar>
+        <div id="savePage-button-bar1" class="button-bar saveBar">
+          <button id="savePage-button4" class="button button-block button-circle saveBarButtons" on-touch="less()">-</button>
+          <button id="savePage-button6" class="button button-block button-circle saveBarButtons" on-touch="more()">+</button>
+        </div>
+        <div class="saveButtonBar">
+          <button id="savePage-button5" class="button button-block saveButton" on-touch="save()">
+            <div class="saveButtonAmount">${{ saveAmount }}</div>
+            <div class="saveButtonSave">Save</div>
+          </button>
+        </div>
+    </div> -->
   </ion-content>
 </ion-view>

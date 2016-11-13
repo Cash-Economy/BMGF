@@ -58,7 +58,7 @@ ion-list.manual-list-fullwidth div.list > .item, .list.card.manual-card-fullwidt
 }
 
 .totalSaved {
-  font-size: 70px;
+  font-size: 45px;
 }
 
 .totalSavedtext {
@@ -114,14 +114,14 @@ progress::-webkit-progress-value {
 
 .saveBar {
   position: fixed;
-  bottom: 10px;
-  z-index: 1;
+  bottom: 0px;
+  z-index: 5;
   height: 76px;
 }
 
 .saveBarButtons {
   margin: 0;
-  height: 50px;
+  height: 65px;
   background-color: #00D382;
   opacity: 60%;
   color: white;
@@ -132,8 +132,8 @@ progress::-webkit-progress-value {
 .saveButtonBar {
   margin: 0px 35vw;
   position: fixed;
-  z-index: 2;
-  bottom: 10px;
+  z-index: 6;
+  bottom: 0px;
   width: 124px;
 }
 
@@ -205,6 +205,7 @@ ion-tabs {
 .cardsCollection {
   margin: 0px auto;
   padding: 10px;
+  margin-bottom: 128px;
 }
 
 .cards {

@@ -6,80 +6,125 @@ angular.module('app.controllers', [])
 function ($rootScope, $scope, $stateParams, $http) {
 
     $rootScope.moneydaysURL = 'http://10.128.19.187:8000';
-    $scope.totalSaved = 550;
-    $scope.goal = 2500;
-    $scope.progressToGoal = parseInt($scope.totalSaved/$scope.goal*100);
+    //$rootScope.totalSaved = 550;
+    //$rootScope.goal = 2500;
+    //$rootScope.progressToGoal = parseInt($rootScope.totalSaved/$rootScope.goal*100);
 
-    $scope.balanceInAccount = 400;
+    //$rootScope.balanceInAccount = 400;
+    //$rootScope.saveRecommended = 50;
+    //$rootScope.saveAmount = 50;
+
     $rootScope.userID = 1;
-    $http({
-      method:'GET',
-      url: $scope.moneydaysURL + '/api/users/' + $scope.userID.toString,
-      headers : {
-        'Content-Type' : 'application/json',
-        'Authorization': 'Basic bXIyMjI0QGNvcm5lbGwuZWR1OnJvYmxlMTQwMTky'
-      }
-    }).then(function successCallback(response) {
-      console.log(response);
-    },
-    function errorCallback(response){
-      // offline alert - can't save money
-      console.log(response);
-    })
 
-    $scope.coachTips = [
+    $scope.getUpdates = function() {
+      $http({
+        method: 'GET',
+        url: $rootScope.moneydaysURL + '/api/users/1/contributions/',
+        headers : {
+          'Content-Type' : 'application/json',
+          'Authorization': 'Basic bXIyMjI0QGNvcm5lbGwuZWR1OnJvYmxlMTQwMTky'
+        }
+      }).then(function successCallback(response) {
+          $rootScope.totalSaved = parseFloat(response.data.results[0].balance).toFixed(2);
+          console.log("Balance " + parseFloat(response.data.results[0].balance).toFixed(2));
+        }, function errorCallback(response) {
+          console.log("Error ");
+          console.log(response);
+        });
+
+        $http({
+          method:'GET',
+          url: $rootScope.moneydaysURL + '/api/users/1',
+          headers : {
+            'Content-Type' : 'application/json',
+            'Authorization': 'Basic bXIyMjI0QGNvcm5lbGwuZWR1OnJvYmxlMTQwMTky'
+          }
+        }).then(function successCallback(response) {
+          console.log(response.data.recommended_amount);
+          $rootScope.saveRecommended = response.data.recommended_amount;
+          $rootScope.saveAmount = $rootScope.saveRecommended;
+    //       {
+    //     "url": "http://10.128.19.187:8000/api/users/1/",
+    //     "id": 1,
+    //     "email": "mr2224@cornell.edu",
+    //     "first_name": "Mario",
+    //     "last_name": "Rial Amado",
+    //     "gender": "F",
+    //     "birth_day": "1992-01-14",
+    //     "checking_account_id": "5827fa44360f81f10454a860",
+    //     "recommended_amount": 0,
+    //     "coach_tip": null
+    // }
+        },
+        function errorCallback(response){
+          // offline alert - can't save money
+          console.log(response);
+        });
+
+        $http({
+          method: 'GET',
+          url: $rootScope.moneydaysURL + '/api/users/1/goals',
+          headers : {
+            'Content-Type' : 'application/json',
+            'Authorization': 'Basic bXIyMjI0QGNvcm5lbGwuZWR1OnJvYmxlMTQwMTky'
+          }
+        }).then(function successCallback(response){
+          $rootScope.goal = response.data.results[0].amount;
+          $rootScope.progressToGoal = parseInt($rootScope.totalSaved/$rootScope.goal*100);
+        },
+        function errorCallback(response){
+          console.log(response);
+        })
+    };
+
+    $scope.getUpdates();
+
+    $rootScope.coachTips = [
         "Post1.jpg", "Post2.jpg", "Post3.jpg"
     ];
 
-    $rootScope.saveRecommended = 50;
-    $rootScope.saveAmount = 50;
-
     $rootScope.save = function() {
-      if($scope.saveAmount < $scope.balanceInAccount){
-        console.log("Saved Amount", $scope.saveAmount);
-        $scope.totalSaved += $scope.saveAmount;
-        $scope.progressToGoal = parseInt($scope.totalSaved/$scope.goal*100);
-        $scope.balanceInAccount -= $scope.saveAmount;
-        // goaal reached ! - color red !, new badge
-        //
         $http({
           method: 'POST',
-          url: $scope.moneydaysURL + '/api/users/1/contributions/',
+          url: $rootScope.moneydaysURL + '/api/users/1/contributions/',
           headers : {
             'Content-Type' : 'application/json',
             'Authorization': 'Basic bXIyMjI0QGNvcm5lbGwuZWR1OnJvYmxlMTQwMTky'
           },
-          data: {txn_amount: $scope.saveAmount}
+          data: {txn_amount: $rootScope.saveAmount}
         }).then(function successCallback(response) {
             console.log("Saved successfully" + response);
+            $scope.getUpdates();
+            //
+            //$rootScope.totalSaved += $rootScope.saveAmount;
+            $rootScope.progressToGoal = parseInt($rootScope.totalSaved/$rootScope.goal*100);
+            //$rootScope.balanceInAccount -= parseFloat($rootScope.saveAmount).toFixed(2);
+            //$rootScope.saveAmount = parseFloat($rootScope.saveRecommended).toFixed(2);
+            // goaal reached ! - color red !, new badge
+            //
         }, function errorCallback(response) {
             console.log("Error in saving" + response);
         });
-      }
-      else
-        console.log("No balance in account");
-    };
+      };
 
     $rootScope.less = function() {
-      if($scope.saveAmount>10)
-        $scope.saveAmount -= 10;
+      if($rootScope.saveAmount>10)
+        $rootScope.saveAmount -= 10;
     };
 
     $rootScope.more = function() {
-      if($scope.saveAmount <= 0.4*$scope.balanceInAccount)
-        $scope.saveAmount += 10;
-      else
-        console.log("Greater than 40% of Balance in your Account");
+        $rootScope.saveAmount += 10;
     };
 
+    $rootScope.totalPoints = 250;
 }])
 
 .controller('lotteryPageCtrl', ['$rootScope', '$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($rootScope, $scope, $stateParams) {
-  $scope.totalPoints = 250;
-  $scope.saveAmount = $rootScope.saveAmount;
+
+  $rootScope.saveAmount = $rootScope.saveAmount;
 
 }])
 
@@ -87,7 +132,7 @@ function ($rootScope, $scope, $stateParams) {
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($rootScope, $scope, $stateParams) {
-  $scope.saveAmount = $rootScope.saveAmount;
+  $rootScope.saveAmount = $rootScope.saveAmount;
 
 }])
 

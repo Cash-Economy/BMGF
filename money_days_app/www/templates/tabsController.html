@@ -11,4 +11,16 @@
       <ion-nav-view name="tab3"></ion-nav-view>
     </ion-tab>
   </ion-tabs>
+  <div class=saveBar>
+      <div id="savePage-button-bar1" class="button-bar saveBar">
+        <button id="savePage-button4" class="button button-block button-circle saveBarButtons" on-touch="less()">-</button>
+        <button id="savePage-button6" class="button button-block button-circle saveBarButtons" on-touch="more()">+</button>
+      </div>
+      <div class="saveButtonBar">
+        <button id="savePage-button5" class="button button-block saveButton" on-touch="save()">
+          <div class="saveButtonAmount">${{ saveAmount }}</div>
+          <div class="saveButtonSave">Save</div>
+        </button>
+      </div>
+  </div>
 </ion-view>
