@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="App_Icon_Kit_A" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#30BFC7;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;}
+	.st4{opacity:0.71;}
+	.st5{fill:#FE1211;}
+</style>
+<symbol  id="Icon" viewBox="-509 -512 1024 1024">
+	<path id="App_Icon_Placeholder_124_" class="st0" d="M-152,512h310c102.8,0,154.2,0,209.5-17.5c60.4-22,108-69.6,130-130
+		C515,309.2,515,257.8,515,155v-310c0-102.8,0-154.2-17.5-209.5c-22-60.4-69.6-108-130-130C312.2-512,260.8-512,158-512h-310
+		c-102.8,0-154.2,0-209.5,17.5c-60.4,22-108,69.6-130,130C-509-309.2-509-257.8-509-155v310c0,102.8,0,154.2,17.5,209.5
+		c22,60.4,69.6,108,130,130C-306.2,512-254.8,512-152,512L-152,512"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-380.2685" y1="46.7951" x2="260.3568" y2="46.7951">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.2"/>
+	</linearGradient>
+	<path class="st1" d="M-127.8-238.9l241.4,475l58.6-69.7l88.2,86.2C192.4,319,98.6,360.1-5,360.1c-103.6,0-197.4-41.1-265.4-107.5
+		C-338.3,186.2-380.3,94.4-380.3-7s42-193.1,109.9-259.6l103.2,101L-127.8-238.9z"/>
+	<polygon class="st2" points="416.6,398.4 284,342 326.1,295.5 342.9,273 	"/>
+	<g>
+		<polygon class="st3" points="-364.4,-374 -379.9,-358.2 -164.4,-147.4 -128.1,-215 103.7,241.1 123.4,231.1 -127.6,-262.7 
+			-169.9,-183.8 		"/>
+		
+			<rect x="134.7" y="247.4" transform="matrix(0.7149 -0.6993 0.6993 0.7149 -104.767 259.8937)" class="st3" width="263.3" height="22.1"/>
+		<polygon class="st3" points="-118,-243.9 -137.7,-233.9 111.3,256 173,182.6 221.4,229.9 236.8,214.1 171.4,150.1 115.9,216.2 		
+			"/>
+	</g>
+</symbol>
+<g id="Notifications_and_Activity_-_Preview">
+	<g id="Loading">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(0.1172 0 0 -0.1172 1919.0704 1137.3715)" style="overflow:visible;"/>
+		<g id="App_Icon_Loading_Indicator_Overlay_2_" class="st4">
+			<path d="M1918.1,1103.6c-18.2,0-33,14.8-33,33s14.8,33,33,33c18.2,0,33-14.8,33-33c0-2-0.2-3.9-0.5-5.8l-32.5,5.8V1103.6z"/>
+			<path d="M1977,1094.7c-2.6-7.1-8.2-12.7-15.2-15.2c-6.5-2-12.5-2-24.6-2h-36.3c-12,0-18.1,0-24.6,2c-7.1,2.6-12.7,8.2-15.2,15.2
+				c-2.1,6.5-2.1,12.5-2.1,24.6v36.3c0,12,0,18.1,2.1,24.6c2.6,7.1,8.2,12.7,15.2,15.2c6.5,2.1,12.5,2.1,24.6,2.1h36.3
+				c12,0,18.1,0,24.6-2.1c7.1-2.6,12.7-8.2,15.2-15.2c2.1-6.5,2.1-12.5,2.1-24.6v-36.3C1979.1,1107.2,1979.1,1101.1,1977,1094.7z
+				 M1919.1,1176.4c-21.5,0-39-17.5-39-39s17.5-39,39-39c21.5,0,39,17.5,39,39S1940.6,1176.4,1919.1,1176.4z"/>
+		</g>
+	</g>
+	<g id="Two_Digit_Badge">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(0.1172 0 0 -0.1172 1698.5704 1137.001)" style="overflow:visible;"/>
+		<g id="Badge_4_">
+			<path id="Badge_Background_6_" class="st5" d="M1753.6,1104.3h-16c-13.3,0-24-10.7-24-24v0c0-13.3,10.7-24,24-24h16
+				c13.3,0,24,10.7,24,24v0C1777.6,1093.5,1766.8,1104.3,1753.6,1104.3z"/>
+			<text transform="matrix(1 0 0 1 1726.9531 1091.5332)" class="st3" style="font-family:'OpenSans'; font-size:32px;">34</text>
+		</g>
+	</g>
+	<g id="One_Digit_Badge">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(0.1172 0 0 -0.1172 1477.5704 1136.8475)" style="overflow:visible;"/>
+		<g id="Badge_1_">
+			<g id="Badge_Background_1_">
+				<path class="st5" d="M1557.6,1081c0,12.2-10,22.2-22.2,22.2h-2.5c-12.2,0-22.2-10-22.2-22.2v-2.5c0-12.2,10-22.2,22.2-22.2h2.5
+					c12.2,0,22.2,10,22.2,22.2V1081z"/>
+			</g>
+			<text transform="matrix(1 0 0 1 1525.1016 1091.5332)" class="st3" style="font-family:'OpenSans'; font-size:32px;">1</text>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 1423.5706 983.071)" style="font-family:'OpenSans'; font-size:33px;">Notifications and Activity</text>
+</g>
+<g id="Settings_Icon_-_Preview_Sizes">
+	<g id="_x32_9_1_">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(2.832031e-02 0 0 -2.832031e-02 2048.5 732.5)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 2036.7112 791.2036)" style="font-family:'OpenSans'; font-size:20px;">29</text>
+	</g>
+	<g id="_x35_8_1_">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(5.664062e-02 0 0 -5.664062e-02 1904 732.0294)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 1890.0012 805.7328)" style="font-family:'OpenSans'; font-size:20px;">58</text>
+	</g>
+	<g id="_x38_7">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(8.496094e-02 0 0 -8.496094e-02 1708.5 732.4688)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 1696.8496 820.2349)" style="font-family:'OpenSans'; font-size:20px;">87</text>
+	</g>
+	<text id="Settings_icon_text" transform="matrix(1 0 0 1 1405.8274 707.5002)"><tspan x="0" y="0" style="font-family:'OpenSans'; font-size:33px;">Settings</tspan><tspan x="0" y="39.6" style="font-family:'OpenSans'; font-size:33px;">icon </tspan></text>
+</g>
+<g id="Spotlight_Icon_-_Preview_Sizes">
+	<g id="_x32_9_3_">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(2.829522e-02 0 0 -2.826913e-02 2308.5129 436.4738)" style="overflow:visible;"/>
+		<text transform="matrix(1.0009 0 0 1 2293.6318 495.0719)" style="font-family:'OpenSans'; font-size:19.9639px;">29</text>
+	</g>
+	<g id="_x34_0_2_">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(3.906250e-02 0 0 -3.906250e-02 2224 436)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 2209 500.7037)" style="font-family:'OpenSans'; font-size:20px;">40</text>
+	</g>
+	<g id="_x35_8_3_">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(5.664062e-02 0 0 -5.664062e-02 2052 436.1051)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 2035.2112 509.8087)" style="font-family:'OpenSans'; font-size:20px;">58</text>
+	</g>
+	<g id="_x38_0_2_">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(7.812500e-02 0 0 -7.812500e-02 1904 436)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 1890.0012 519.7036)" style="font-family:'OpenSans'; font-size:20px;">80</text>
+	</g>
+	<g id="_x31_20_1_">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(0.1172 0 0 -0.1172 1708 436)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 1682.3496 539.7661)" style="font-family:'OpenSans'; font-size:20px;">120</text>
+	</g>
+	<text id="Spotlight_icon_text_2_" transform="matrix(1 0 0 1 1407.0913 402.0238)"><tspan x="0" y="0" style="font-family:'OpenSans'; font-size:33px;">Spotlight </tspan><tspan x="0" y="39.6" style="font-family:'OpenSans'; font-size:33px;">Icon </tspan></text>
+</g>
+<g id="App_Icon_-_Preview_Sizes">
+	<g id="_x35_7">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(5.566406e-02 0 0 -5.566406e-02 2320.5 116.5)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 2305.6055 190.2039)" style="font-family:'OpenSans'; font-size:20px;">57</text>
+	</g>
+	<g id="_x36_0">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(5.859375e-02 0 0 -5.859375e-02 2228 116)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 2213 190.7037)" style="font-family:'OpenSans'; font-size:20px;">60</text>
+	</g>
+	<g id="_x31_14">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(0.1111 0 0 -0.1111 2072 115.8842)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 2055.2456 217.3813)" style="font-family:'OpenSans'; font-size:19.9594px;">114</text>
+	</g>
+	<g id="_x31_20">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" id="XMLID_3_" x="-509" y="-512" transform="matrix(0.1172 0 0 -0.1172 1920 116)" style="overflow:visible;"/>
+		<text transform="matrix(1 0 0 1 1900.0012 219.7036)" style="font-family:'OpenSans'; font-size:20px;">120</text>
+	</g>
+	<g id="_x31_80">
+		<text transform="matrix(1 0 0 1 1682.3496 249.7661)" style="font-family:'OpenSans'; font-size:20px;">180</text>
+	</g>
+	<text id="App_icon_text" transform="matrix(1 0 0 1 1404.0912 63.5015)" style="font-family:'OpenSans'; font-size:33px;">App Icon </text>
+	
+		<use xlink:href="#Icon"  width="1024" height="1024" x="-509" y="-512" transform="matrix(0.1758 0 0 -0.1758 1708 116)" style="overflow:visible;"/>
+</g>
+<g id="App_Icon_and_Badge_-_Main">
+	<g id="_x31_024">
+		
+			<use xlink:href="#Icon"  width="1024" height="1024" id="_x5B_YOUR_ICON_HERE_x5D_" x="-509" y="-512" transform="matrix(1 0 0 -1 511.9999 512)" style="overflow:visible;"/>
+	</g>
+</g>
+</svg>
