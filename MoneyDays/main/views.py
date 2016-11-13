@@ -66,9 +66,9 @@ def user_detail(request, pk_user=None):
 
     money_balances = []
     for cont in contributions:
-        print("Amount: " + str(cont.txn_amount))
-        print("Balance: " + str(cont.balance))
-        print("Time: " + str(cont.time))
+        # print("Amount: " + str(cont.txn_amount))
+        # print("Balance: " + str(cont.balance))
+        # print("Time: " + str(cont.time))
         time = int(cont.time.timestamp() * 1000)
         money_balances.append((time, cont.balance))
 
@@ -76,9 +76,9 @@ def user_detail(request, pk_user=None):
 
     point_balances = []
     for cont in pointmovements:
-        print("Amount: " + str(cont.txn_amount))
-        print("Balance: " + str(cont.balance))
-        print("Time: " + str(cont.time))
+        # print("Amount: " + str(cont.txn_amount))
+        # print("Balance: " + str(cont.balance))
+        # print("Time: " + str(cont.time))
         time = int(cont.time.timestamp() * 1000)
         point_balances.append((time, cont.balance))
 

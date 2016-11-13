@@ -127,6 +127,8 @@ LOGIN_URL = "/login/"
 
 STATIC_URL = '/vendors/'
 
+MONEYDAYS_CHECKING_ACCOUNT_ID = "582801ad360f81f10454a8d2"
+
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
     'PAGE_SIZE': 10

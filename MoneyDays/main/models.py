@@ -10,7 +10,10 @@ from django.db import models
 from django.utils.http import urlquote
 from twilio.rest import TwilioRestClient
 
-from MoneyDays.keys import ACCOUNT_SID, AUTH_TOKEN
+from MoneyDays import keys
+import requests
+
+from MoneyDays import settings
 
 
 class MoneyUserManager(BaseUserManager):
@@ -123,22 +126,61 @@ class UserContribution(models.Model):
 
     def save(self, *args, **kwargs):
 
-        print("User: "+str(self.user))
-        print("Txn_amount: "+str(self.txn_amount))
-        print("Balance: "+str(self.balance))
+        client = TwilioRestClient(keys.ACCOUNT_SID, keys.AUTH_TOKEN)
+
+        checking_id = self.user.checking_account_id
+
+        # CHECK BANK ACCOUNT BALANCE IN CAPITAL ONE
+        # TODO INTEGRATE WITH PLAID
+        # TODO CHECK FOR NON EXISTING ACCOUNT
+        r = requests.get(
+            "http://api.reimaginebanking.com/accounts/" + checking_id + "?key=" + keys.CAPITAL_1_API_KEY).json()
+        checking_balance = float(r['balance'])
+
+        print("User: " + str(self.user))
+        print("Txn_amount: " + str(self.txn_amount))
+        print("Balance: " + str(checking_balance))
+
+        if self.txn_amount > checking_balance:
+            client.messages.create(
+                to=self.user.phone_number,
+                from_="+16072755081",
+                body="Unfortunately you only have: $" + str(checking_balance) + " so your payment of $" + str(
+                    self.txn_amount) + " could not be completed.",
+            )
+            return
+
+        # WE MAKE OUTGOING TRANSFER FROM CUSTOMER ACCOUNT TO MONEYDAYS CHECKING ACCOUNT.
+        txn_data = {
+            "medium": "balance",
+            "payee_id": settings.MONEYDAYS_CHECKING_ACCOUNT_ID,
+            "amount": float(self.txn_amount),
+            "description": "Saving to MoneyDays"
+        }
+        r = requests.post(
+            "http://api.reimaginebanking.com/accounts/" + checking_id + "/transfers?key=" + keys.CAPITAL_1_API_KEY,
+            json=txn_data).json()
+
+        if r['code'] != 201:
+            print("Bank error")
+            client.messages.create(
+                to=self.user.phone_number,
+                from_="+16072755081",
+                body="We couldn't make the deposit something went wrong when trying to create the transfer. Please check with your bank",
+            )
+            return
 
         contrib = UserPointMovement(user=self.user, txn_amount=0)
         contrib.save()
 
-        client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
+        checking_balance = float(checking_balance) - float(self.txn_amount)
 
         client.messages.create(
             to=self.user.phone_number,
             from_="+16072755081",
-            body="Congratulations " + self.user.first_name + "! You have made a deposit of: $" + str(self.txn_amount),
+            body="Congratulations " + self.user.first_name + "! You have made a deposit of: $" + str(
+                self.txn_amount) + ". Your checking account remaining balance is: $" + str(checking_balance),
         )
-
-        # TODO TRIGGER BANK TRANSACTION
 
         # TODO TRIGGER RECOMMENDED AMOUNT RECALCULATION
 
