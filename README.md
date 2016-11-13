@@ -1,6 +1,6 @@
 # Bill & Melinda Gates Foundation challenge
 
-This is the repository for work in process artifacts for Autumn 2016 "Product Studio", Bill + Melinda Gates Foundation team. Our product preliminarily called `money.days`.
+This is the repository for work in process artifacts for Autumn 2016 "Product Studio", Bill + Melinda Gates Foundation team. Our product preliminarily called `moneydays`.
 
 ## Our Challenge
 
@@ -8,7 +8,7 @@ This is the repository for work in process artifacts for Autumn 2016 "Product St
 
 ## What are we doing?
 
-moneydays is a flexible, social savings application that is personalised not generic, and fun not stressful. It calculates optimum savings based on variable income; stimulates savings through proven savings lottery models; enacts those transactions; and transforms the economic dialogue into an optimistic one. With moneydays, anyone can save!
+`moneydays` is a flexible, social savings application that is personalised not generic, and fun not stressful. It calculates optimum savings based on variable income; stimulates savings through proven savings lottery models; enacts those transactions; and transforms the economic dialogue into an optimistic one. With `moneydays`, anyone can save!
 
 [Our latest product demo video](https://vimeo.com/185554227)
 
