@@ -12,7 +12,7 @@ TRN_DATE_COL = 'trn_time'
 TRN_AMT_COL = 'trn_amt'
 TRN_HISTORY_INITIAL_WEEKS = 1
 TRN_HISTORY_WEEKS_SPAN = 26
-C = 35/100
+C = 35 / 100
 
 
 # Here we do the IO readings, whatever that is. Right now is just reading a csv file.
@@ -54,14 +54,13 @@ def get_saving_recc(data, pk_user, last_saving_date=None):
     last_earning = initial_week[initial_week[TRN_AMT_COL] > 0].head(n=1)[TRN_AMT_COL].iloc[0]
 
     # Here is where we do the logic for the whole "no income this week" scenario
-    if (last_earning <= 0):
+    if last_earning <= 0:
         pass
 
     # Get only the interesting columns from the last weeks
     remaining_weeks = remaining_weeks[remaining_weeks[TRN_AMT_COL] > 0][TRN_AMT_COL]
     mean = remaining_weeks.mean()
     std = remaining_weeks.std()
-
 
     norm = last_earning - mean + std
 

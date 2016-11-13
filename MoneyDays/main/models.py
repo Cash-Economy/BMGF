@@ -74,6 +74,7 @@ class MoneyUser(AbstractBaseUser, PermissionsMixin):
 
     recommended_amount = models.FloatField(blank=True, null=True)
     coach_tip = models.TextField(blank=True, null=True)
+    checking_account_id = models.CharField(max_length=254, null=True, blank=True)
 
     objects = MoneyUserManager()
 
@@ -112,7 +113,6 @@ class MoneyUser(AbstractBaseUser, PermissionsMixin):
 #     user = models.ForeignKey(MoneyUser, related_name='pools')
 #     group = models.ForeignKey(Pool, related_name='users')
 #     date_joined = models.DateTimeField(blank=True, default=timezone.now)
-
 
 class UserContribution(models.Model):
     user = models.ForeignKey(MoneyUser, related_name='contributions')

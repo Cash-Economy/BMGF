@@ -6,14 +6,10 @@ from rest_framework.decorators import api_view
 from rest_framework.generics import get_object_or_404
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
-from twilio.rest import TwilioRestClient
 
-from MoneyDays.keys import ACCOUNT_SID, AUTH_TOKEN
 from .models import UserContribution, UserPointMovement, UserGoal
 from .permissions import IsOwnerOrStaff, NotAllowRegisterAccountToAuthenticated
-from .serializers import UserSerializer, UserRegistrationSerializer, UserContributionSerializer, \
-    UserContributionCreationSerializer, UserPointMovementSerializer
-from .permissions import IsOwnerOrStaff, NotAllowRegisterAccountToAuthenticated
+from .serializers import UserContributionSerializer, UserContributionCreationSerializer, UserPointMovementSerializer
 from .serializers import UserSerializer, UserRegistrationSerializer
 from .transaction_utils import make_suggestions
 

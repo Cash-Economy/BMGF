@@ -1,50 +1,61 @@
-CUSTOMER CREATION
-{
-  "first_name": "Mario",
-  "last_name": "Rial",
-  "address": {
-    "street_number": "335 W",
-    "street_name": "43RD",
-    "city": "New York",
-    "state": "NY",
-    "zip": "10036"
+http://api.reimaginebanking.com/
+
+CUSTOMERS:
+[
+  {
+    "_id": "5827f7fa360f81f10454a847",
+    "first_name": "Mario",
+    "last_name": "Rial",
+    "address": {
+      "street_number": "335 W",
+      "street_name": "43RD",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10036"
+    }
+  },
+  {
+    "_id": "5827fb80360f81f10454a890",
+    "first_name": "MONEY DAYS.US",
+    "last_name": "MONEY DAYS",
+    "address": {
+      "street_number": "1",
+      "street_name": "Wall Street",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10036"
+    }
   }
-}
+]
 
-MONEY DAYS CUSTOMER ACCOUNT CREATION:
-{
-  "first_name": "MONEY DAYS.US",
-  "last_name": "MONEY DAYS",
-  "address": {
-    "street_number": "1",
-    "street_name": "Wall Street",
-    "city": "New York",
-    "state": "NY",
-    "zip": "10036"
+
+CHECKING ACCOUNTS:
+
+[
+  {
+    "_id": "5827fa44360f81f10454a860",
+    "type": "Checking",
+    "nickname": "Cuenta Corriente",
+    "rewards": 0,
+    "balance": 563,
+    "customer_id": "5827f7fa360f81f10454a847"
+  },
+  {
+    "_id": "582801ad360f81f10454a8d2",
+    "type": "Checking",
+    "nickname": "MoneyDays Enterprise",
+    "rewards": 0,
+    "balance": 500000,
+    "customer_id": "5827fb80360f81f10454a890"
   }
-}
+]
 
-CHECKING ACCOUNT CREATION:
-POST customers/5827f7fa360f81f10454a847/accounts
+ISSUE TRANSFER:
+
 {
-  "type": "Checking",
-  "nickname": "Cuenta Corriente",
-  "rewards": 0,
-  "balance": 563
+  "medium": "balance",
+  "payee_id": "582801ad360f81f10454a8d2",
+  "amount": 100.65,
+  "description": "Saving to MoneyDays"
 }
-
-MoneyDays Account
-POST customers/5827fb80360f81f10454a890/accounts
-{
-  "type": "Checking",
-  "nickname": "Cuenta Corriente",
-  "rewards": 0,
-  "balance": 50000
-}
-
-
-Mario Account ID:
-5827fa44360f81f10454a860
-
-
 
