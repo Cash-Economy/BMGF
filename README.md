@@ -8,9 +8,7 @@ This is the repository for work in process artifacts for Autumn 2016 "Product St
 
 ## What are we doing?
 
-92% of low-income households state that financial stability is more valuable to them than higher income. Hundreds of millions of households manage their credit through savings pools. These, however, are inflexible and disconnected from the formal economy. 
-
-*We propose a flexible, formalised savings pool model that builds credit history and generates interest income for the users that is personalised not generic, and fun rather than stressful.*
+moneydays is a flexible, social savings application that is personalised not generic, and fun not stressful. It calculates optimum savings based on variable income; stimulates savings through proven savings lottery models; enacts those transactions; and transforms the economic dialogue into an optimistic one. With moneydays, anyone can save!
 
 [Our latest product demo video](https://vimeo.com/185554227)
 
