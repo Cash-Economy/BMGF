@@ -65,6 +65,8 @@ class UserContributionList(generics.ListCreateAPIView):
             return UserContributionSerializer
 
     def get_queryset(self):
+        if self.kwargs['pk_user'] == "self":
+            self.kwargs['pk_user'] = str(self.request.user.id)
         user_id = self.kwargs.get('pk_user')
         # print "User Measurement LIST"
         # print "PK USER:" + user_id

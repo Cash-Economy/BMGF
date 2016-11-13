@@ -15,6 +15,8 @@ import requests
 
 from MoneyDays import settings
 
+SAVING_FACTOR = 0.1
+
 
 class MoneyUserManager(BaseUserManager):
     def _create_user(self, email, password,
@@ -41,6 +43,15 @@ class MoneyUserManager(BaseUserManager):
     def create_superuser(self, email, password, **extra_fields):
         return self._create_user(email, password, True, True,
                                  **extra_fields)
+
+
+def truncate(f, n):
+    """Truncates/pads a float f to n decimal places without rounding"""
+    s = '{}'.format(f)
+    if 'e' in s or 'E' in s:
+        return '{0:.{1}f}'.format(f, n)
+    i, p, d = s.partition('.')
+    return '.'.join([i, (d + '0' * n)[:n]])
 
 
 class MoneyUser(AbstractBaseUser, PermissionsMixin):
@@ -75,9 +86,9 @@ class MoneyUser(AbstractBaseUser, PermissionsMixin):
                                  message="Phone number must be entered in the format: '+999999999'. Up to 15 digits allowed.")
     phone_number = models.CharField(validators=[phone_regex], max_length=15)  # validators should be a list
 
-    recommended_amount = models.FloatField(blank=True, null=True)
-    coach_tip = models.TextField(blank=True, null=True)
-    checking_account_id = models.CharField(max_length=254, null=True, blank=True)
+    recommended_amount = models.FloatField(null=True)
+    coach_tip = models.TextField(null=True)
+    checking_account_id = models.CharField(max_length=254, null=True)
 
     objects = MoneyUserManager()
 
@@ -145,8 +156,7 @@ class UserContribution(models.Model):
             client.messages.create(
                 to=self.user.phone_number,
                 from_="+16072755081",
-                body="Unfortunately you only have: $" + str(checking_balance) + " so your payment of $" + str(
-                    self.txn_amount) + " could not be completed.",
+                body="Unfortunately you only have: $" + str(truncate(checking_balance, 2)) + " so your payment of $" + str(self.txn_amount) + " could not be completed.",
             )
             return
 
@@ -175,14 +185,19 @@ class UserContribution(models.Model):
 
         checking_balance = float(checking_balance) - float(self.txn_amount)
 
+        # TODO RECOMMENDED AMOUNT
+        self.user.recommended_amount = 0.0
+        self.user.save()
+
         client.messages.create(
             to=self.user.phone_number,
             from_="+16072755081",
             body="Congratulations " + self.user.first_name + "! You have made a deposit of: $" + str(
-                self.txn_amount) + ". Your checking account remaining balance is: $" + str(checking_balance),
+                self.txn_amount) + ". Your checking account remaining balance is: $" + str(truncate(checking_balance, 2)),
         )
 
         # TODO TRIGGER RECOMMENDED AMOUNT RECALCULATION
+        self.user.recommended_amount = checking_balance - checking_balance * (1 - SAVING_FACTOR)
 
         contribs = UserContribution.objects.filter(user=self.user).order_by('-time')
         if contribs:

@@ -29,8 +29,6 @@
     <!-- Custom Theme Style -->
     <link href="../vendors/css/custom.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="../bower_components/qunit/qunit/qunit.css">
-    <link rel="stylesheet" href="../vendor/sweetalert.css">
 </head>
 
 <body class="nav-md">
@@ -527,7 +525,7 @@
 
                                                 {% csrf_token %}
 
-                                                <input name="amount" type="text" value="500" class="form-control"
+                                                <input name="amount" type="text" value="{{recommended_amount}}" class="form-control"
                                                        aria-label="Text input with dropdown button">
                                                 <span class="input-group-btn">
                                               <input type="submit" class="btn btn-primary" value="Save Now!"/>
@@ -1383,6 +1381,34 @@
     gauge.setTextField(document.getElementById("gauge-text"));
 </script>
 
+<script>
+    var old_url = "";
+    var initialized = false;
+    var updateCall = function () {
+        console.log("INICIO FUNCION");
+        $.ajax({
+            url: '/api/users/self/contributions/',
+            dataType: 'json',
+            success: function (data) {
+                console.log(data);
+                new_url = data.results[0].url;
+                console.log(new_url);
+                if (!initialized) {
+                    old_url = new_url;
+                    initialized = true;
+                }
+                if (old_url != new_url && initialized) {
+                                    console.log("Trigger reload");
+                    location.reload();
+                }
+            }
+        });
+        setTimeout(updateCall, 1000);
+    };
+    console.log("INICIO FUNCION");
+    updateCall();
+
+</script>
 
  <!-- /gauge.js -->
 </body>

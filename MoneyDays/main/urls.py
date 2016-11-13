@@ -35,7 +35,7 @@ urlpatterns = [
 
     url(r'^api/users/$', apiviews.UserList.as_view(), name='moneyuser-list'),
     url(r'^api/users/(?P<pk_user>[0-9]+|self)/$', apiviews.UserDetail.as_view(), name='moneyuser-detail'),
-    url(r'^api/users/(?P<pk_user>[0-9]+)/contributions/$', apiviews.UserContributionList.as_view(), name='contribution-list'),
+    url(r'^api/users/(?P<pk_user>[0-9]+|self)/contributions/$', apiviews.UserContributionList.as_view(), name='contribution-list'),
     url(r'^api/users/(?P<pk_user>[0-9]+)/contributions/(?P<pk_contribution>[0-9]+)/$', apiviews.UserContributionDetail.as_view(), name='contribution-detail'),
     url(r'^api/users/(?P<pk_user>[0-9]+)/points/$', apiviews.UserPointMovementList.as_view(), name='point-list'),
     url(r'^api/users/(?P<pk_user>[0-9]+)/points/(?P<pk_contribution>[0-9]+)$', apiviews.UserPointMovementDetail.as_view(), name='point-detail'),

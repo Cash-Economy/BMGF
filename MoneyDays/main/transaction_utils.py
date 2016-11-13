@@ -71,3 +71,6 @@ def make_suggestions(pk_user):
     json = read_transactions()
     data = extract_dataframe(json)
     return get_saving_recc(data, pk_user)
+
+if __name__ == '__main__':
+    print("Suggestion: "+str(make_suggestions(1)))

@@ -9,6 +9,15 @@ from main.models import UserContribution, UserPointMovement, UserGoal
 from MoneyDays.keys import ACCOUNT_SID, AUTH_TOKEN
 
 
+def truncate(f, n):
+    """Truncates/pads a float f to n decimal places without rounding"""
+    s = '{}'.format(f)
+    if 'e' in s or 'E' in s:
+        return '{0:.{1}f}'.format(f, n)
+    i, p, d = s.partition('.')
+    return '.'.join([i, (d + '0' * n)[:n]])
+
+
 def index(request):
     """
     PATH: /
@@ -102,11 +111,12 @@ def user_detail(request, pk_user=None):
         app_name="Money Days!",
         moneybalances=money_balances,
         pointbalances=point_balances,
-        total_saved=total_saved,
+        total_saved=truncate(total_saved, 2),
         total_points=total_points,
         goal_amount=goal.amount,
         goal_name=goal.name,
         goal_description=goal.description,
+        recommended_amount=request.user.recommended_amount,
         savings_increase="%.2f" % round(savings_increase, 2),
         points_increase="%.2f" % round(points_increase, 2)
     )

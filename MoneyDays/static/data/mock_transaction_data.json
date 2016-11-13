@@ -1,4 +1,6 @@
-[{"pk_user":1,"trn_id":"7ec1b42d-9ea4-4c40-b762-29c31f3588f0","trn_time":"2/15/2016","trn_amt":6.12},
+[
+  {"pk_user":1,"trn_id":"7ec1b42d-9ea4-4c40-b762-2c31f3588f0","trn_time":"11/12/2016","trn_amt":500.12},
+  {"pk_user":1,"trn_id":"7ec1b42d-9ea4-4c40-b762-29c31f3588f0","trn_time":"2/15/2016","trn_amt":6.12},
 {"pk_user":1,"trn_id":"fbdce576-c94c-41e9-985b-3fff37b81703","trn_time":"3/14/2016","trn_amt":659.05},
 {"pk_user":1,"trn_id":"d9153743-8b33-4fc0-8979-a54b2a37388b","trn_time":"1/21/2016","trn_amt":-384.9},
 {"pk_user":1,"trn_id":"7db603f1-07f5-4c47-a65e-81ba3b90d032","trn_time":"1/12/2016","trn_amt":278.84},
