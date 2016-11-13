@@ -88,7 +88,10 @@ def user_detail(request, pk_user=None):
 
     total_points = pointmovements[0].balance
     previous_points = pointmovements[1].balance
-    points_increase = (total_points / previous_points) * 100
+    if previous_points:
+        points_increase = (total_points / previous_points) * 100
+    else:
+        points_increase = 0
 
     # FIXME NO GOAL MAYBE
     goal = UserGoal.objects.filter(user=request.user)[0]
@@ -125,17 +128,6 @@ def make_payment(request):
 
     contrib = UserContribution(user=request.user, txn_amount=float(amount))
     contrib.save()
-
-    contrib = UserPointMovement(user=request.user, txn_amount=0)
-    contrib.save()
-
-    client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
-
-    client.messages.create(
-        to=request.user.phone_number,
-        from_="+16072755081",
-        body="Congratulations " + request.user.first_name + "! You have made a deposit of: " + str(amount) + "$",
-    )
 
     return redirect(reverse('user_detail', kwargs={"pk_user": request.user.id}))
 

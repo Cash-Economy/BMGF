@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from rest_framework import serializers
 from rest_framework.reverse import reverse
 
-from .models import UserContribution
+from .models import UserContribution, UserPointMovement
 
 User = get_user_model()
 
@@ -21,7 +21,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = User
-        fields = ('url', 'id', 'email', 'first_name', 'last_name', 'gender', 'birth_day')
+        fields = ('url', 'id', 'email', 'first_name', 'last_name', 'gender', 'birth_day', 'recommended_amount', 'coach_tip')
 
 
 class UserRegistrationSerializer(serializers.ModelSerializer):
@@ -64,3 +64,12 @@ class UserContributionCreationSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserContribution
         fields = ('txn_amount',)
+
+
+class UserPointMovementSerializer(serializers.HyperlinkedModelSerializer):
+    url = ContributionHyperlink(read_only=True, view_name="point-detail")
+    user = serializers.HyperlinkedRelatedField(read_only=True, lookup_field='id', lookup_url_kwarg='pk_user', view_name='moneyuser-detail')
+
+    class Meta:
+        model = UserPointMovement
+        fields = ('url', 'user', 'txn_amount', 'balance', 'time')

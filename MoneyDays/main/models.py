@@ -8,6 +8,9 @@ from django.db import models
 
 # Create your models here.
 from django.utils.http import urlquote
+from twilio.rest import TwilioRestClient
+
+from MoneyDays.keys import ACCOUNT_SID, AUTH_TOKEN
 
 
 class MoneyUserManager(BaseUserManager):
@@ -69,6 +72,9 @@ class MoneyUser(AbstractBaseUser, PermissionsMixin):
                                  message="Phone number must be entered in the format: '+999999999'. Up to 15 digits allowed.")
     phone_number = models.CharField(validators=[phone_regex], max_length=15)  # validators should be a list
 
+    recommended_amount = models.FloatField(blank=True, null=True)
+    coach_tip = models.TextField(blank=True, null=True)
+
     objects = MoneyUserManager()
 
     USERNAME_FIELD = 'email'
@@ -116,6 +122,26 @@ class UserContribution(models.Model):
     time = models.DateTimeField(default=timezone.now)
 
     def save(self, *args, **kwargs):
+
+        print("User: "+str(self.user))
+        print("Txn_amount: "+str(self.txn_amount))
+        print("Balance: "+str(self.balance))
+
+        contrib = UserPointMovement(user=self.user, txn_amount=0)
+        contrib.save()
+
+        client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
+
+        client.messages.create(
+            to=self.user.phone_number,
+            from_="+16072755081",
+            body="Congratulations " + self.user.first_name + "! You have made a deposit of: $" + str(self.txn_amount),
+        )
+
+        # TODO TRIGGER BANK TRANSACTION
+
+        # TODO TRIGGER RECOMMENDED AMOUNT RECALCULATION
+
         contribs = UserContribution.objects.filter(user=self.user).order_by('-time')
         if contribs:
             bal = contribs[0].balance

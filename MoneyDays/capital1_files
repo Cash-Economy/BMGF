@@ -1,0 +1,50 @@
+CUSTOMER CREATION
+{
+  "first_name": "Mario",
+  "last_name": "Rial",
+  "address": {
+    "street_number": "335 W",
+    "street_name": "43RD",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10036"
+  }
+}
+
+MONEY DAYS CUSTOMER ACCOUNT CREATION:
+{
+  "first_name": "MONEY DAYS.US",
+  "last_name": "MONEY DAYS",
+  "address": {
+    "street_number": "1",
+    "street_name": "Wall Street",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10036"
+  }
+}
+
+CHECKING ACCOUNT CREATION:
+POST customers/5827f7fa360f81f10454a847/accounts
+{
+  "type": "Checking",
+  "nickname": "Cuenta Corriente",
+  "rewards": 0,
+  "balance": 563
+}
+
+MoneyDays Account
+POST customers/5827fb80360f81f10454a890/accounts
+{
+  "type": "Checking",
+  "nickname": "Cuenta Corriente",
+  "rewards": 0,
+  "balance": 50000
+}
+
+
+Mario Account ID:
+5827fa44360f81f10454a860
+
+
+
