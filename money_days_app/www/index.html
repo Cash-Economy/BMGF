@@ -4,65 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
-
-    
-    
     <script src="lib/ionic/js/ionic.bundle.js"></script>
-
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
-
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
-
-    
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    
-
-    <style type="text/css">
-      .platform-ios .manual-ios-statusbar-padding{
-        padding-top:20px;
-      }
-      .manual-remove-top-padding{
-        padding-top:0px; 
-      }
-      .manual-remove-top-padding .scroll{
-        padding-top:0px !important;
-      }
-      ion-list.manual-list-fullwidth div.list, .list.card.manual-card-fullwidth {
-        margin-left:-10px;
-        margin-right:-10px;
-      }
-      ion-list.manual-list-fullwidth div.list > .item, .list.card.manual-card-fullwidth > .item {
-        border-radius:0px;
-        border-left:0px;
-        border-right: 0px;
-      }
-      .show-list-numbers-and-dots ul{
-        list-style-type: disc;
-        padding-left:40px;
-      }
-      .show-list-numbers-and-dots ol{
-        list-style-type: decimal;
-        padding-left:40px;
-      }
-    </style>
-
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/routes.js"></script>
-    
-     
     <script src="js/directives.js"></script>
-     
     <script src="js/services.js"></script>
-    
-
-    <!-- Only required for Tab projects w/ pages in multiple tabs 
+    <!-- Only required for Tab projects w/ pages in multiple tabs
     <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
     -->
+    <!-- ANDROID_HOME=/home/sindhu/Android/Sdk/
 
+    JAVA_HOME=/usr/local/java/jdk1.8.0_111/jre
+     -->
   </head>
   <body ng-app="app" animation="slide-left-right-ios7">
   <div>
@@ -77,10 +39,10 @@
       <ion-nav-view></ion-nav-view>
     </ion-side-menu-content>
     <ion-side-menu side="left" id="side-menu21">
-      <ion-header-bar class="bar-stable">
+      <ion-header-bar class="bar-stable titleBar">
         <div class="title">Menu</div>
       </ion-header-bar>
-      <ion-content ng-controller="menuCtrl" padding="false" class="side-menu-left has-header ">
+      <ion-content ng-controller="menuCtrl" has-bouncing="false" padding="false" class="side-menu-left has-header ">
         <ion-list id="menu-list1" data-componentid="list1">
           <ion-item class="item-icon-left" id="menu-list-item4" ui-sref="tabsController.savePage" menu-close="" data-componentid="list-item4">
             <i class="icon ion-ionic"></i>Home</ion-item>

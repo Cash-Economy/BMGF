@@ -1,22 +1,27 @@
-<ion-view title="Save Page" id="page2">
-  <ion-content padding="true" class="has-header">
-    <div style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
-      <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+<ion-view title="" id="savePage">
+  <ion-content padding="false" class="has-header">
+    <div class="circleMain saveCircle">
+      <p class="totalSaved">${{ totalSaved }}</p>
+      <p class="totalSavedtext">saved</p>
     </div>
-    <form id="savePage-form1" class="list">
-      <ion-item class="range range-positive" id="savePage-range1">Progress to Goal
-        <input type="range" value="50" min="0" max="100" step="1">
-      </ion-item>
-    </form>
-    <ion-slides disable-side-menu-drag="" options="{'loop': true}" slider="slider1" id="savePage-slider1" style="width:100%;height:200px;">
-      <ion-slide-page id="savePage-slide24" style="background:url(img/avfsZwJT9WGsBj982ul1_kitten1.jpg) no-repeat center;background-size:cover;"></ion-slide-page>
-      <ion-slide-page id="savePage-slide25" style="background:url(img/gHd5vedGQJu4s4qsPQvr_kitten2.jpg) no-repeat center;background-size:cover;"></ion-slide-page>
-      <ion-slide-page id="savePage-slide26" style="background:url(img/WE6rB9dZRTiIWQlP5qsA_kitten3.jpg) no-repeat center;background-size:cover;"></ion-slide-page>
-    </ion-slides>
-    <div id="savePage-button-bar1" class="button-bar">
-      <button id="savePage-button4" class="button button-positive  button-block">1</button>
-      <button id="savePage-button5" class="button button-positive  button-block">2</button>
-      <button id="savePage-button6" class="button button-positive  button-block">3</button>
+    <div class="progress">
+      <p class="progressText">Progress to Goal: {{ progressToGoal }}%</p>
+      <progress class="progressMain progressSave" max="100" value="{{ progressToGoal }}"></progress>
+    </div>
+    <div class="cardsCollection">
+      <div class="cards"><img src="img/Post1.jpg" alt="Smiley face" class="cardsImg"></div>
+      <div class="cards"><img src="img/Post2.jpg" alt="Smiley face" class="cardsImg"></div>
+      <div class="cards"><img src="img/Post3.jpg" alt="Smiley face" class="cardsImg"></div>
+    </div>
+    <div id="savePage-button-bar1" class="button-bar saveBar">
+      <button id="savePage-button4" class="button button-block button-circle saveBarButtons" on-touch="less()">-</button>
+      <button id="savePage-button6" class="button button-block button-circle saveBarButtons" on-touch="more()">+</button>
+    </div>
+    <div class="saveButtonBar">
+      <button id="savePage-button5" class="button button-block saveButton" on-touch="save()">
+        <div class="saveButtonAmount">${{ saveAmount }}</div>
+        <div class="saveButtonSave">Save</div>
+      </button>
     </div>
   </ion-content>
 </ion-view>
