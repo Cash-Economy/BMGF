@@ -45,7 +45,7 @@ def login_req(request):
                 login(request, user)
                 return redirect(reverse('user_detail', kwargs={"pk_user": user.id}))
             else:
-                print("Error!!!!")
+                print("Error! Please try again.")
 
     parameters = dict(
         app_name="Money Days!"
