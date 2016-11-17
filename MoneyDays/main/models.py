@@ -1,3 +1,4 @@
+from django.utils import timezone
 from django.core.validators import RegexValidator
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.auth.base_user import BaseUserManager, AbstractBaseUser
