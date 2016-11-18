@@ -1,1 +1,227 @@
-/* Empty. Add your own CSS if you like */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.platform-ios .manual-ios-statusbar-padding{
+  padding-top:20px;
+}
+.manual-remove-top-padding{
+  padding-top:0px;
+}
+.manual-remove-top-padding .scroll{
+  padding-top:0px !important;
+}
+ion-list.manual-list-fullwidth div.list, .list.card.manual-card-fullwidth {
+  margin-left:-10px;
+  margin-right:-10px;
+}
+ion-list.manual-list-fullwidth div.list > .item, .list.card.manual-card-fullwidth > .item {
+  border-radius:0px;
+  border-left:0px;
+  border-right: 0px;
+}
+.show-list-numbers-and-dots ul{
+  list-style-type: disc;
+  padding-left:40px;
+}
+.show-list-numbers-and-dots ol{
+  list-style-type: decimal;
+  padding-left:40px;
+}
+
+.circleMain {
+  margin: 25px auto 10px auto;
+  padding: 100px 0;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 0;
+  color: white;
+}
+
+.saveCircle {
+    background-color: #3DB7B8;
+}
+
+.lotteryCircle {
+    background-color: #ED9F2D;
+}
+
+.socialCircle {
+    background-color: #9013FE;
+}
+
+.progress {
+  margin: 0px 18px;
+}
+
+.totalSaved {
+  font-size: 45px;
+}
+
+.totalSavedtext {
+  padding: 27px;
+  font-size: 19px;
+}
+
+.trophy {
+  height: 100px;
+  margin-top: -75px;
+}
+
+.socialText {
+  padding: 0;
+  font-size: 20px;
+  margin-top: 23px;
+}
+
+.goalBadge {
+  padding: 21px 27px;
+  font-size: 19px;
+  height: 103px;
+  width: 208px;
+}
+
+.progressText {
+  margin: 0;
+  padding: 3px;
+  font-size: 21px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: grey;
+  border: 1px;
+  height: 18px;
+  border-radius: 9px;
+}
+
+progress::-webkit-progress-value {
+}
+
+.progressSave {
+
+}
+
+.progressLottery {
+
+}
+
+.progressSocial {
+
+}
+
+.saveBar {
+  position: fixed;
+  bottom: 0px;
+  z-index: 5;
+  height: 76px;
+}
+
+.saveBarButtons {
+  margin: 0;
+  height: 65px;
+  background-color: #00D382;
+  opacity: 60%;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.saveButtonBar {
+  margin: 0px 35vw;
+  position: fixed;
+  z-index: 6;
+  bottom: 0px;
+  width: 124px;
+}
+
+.saveButton {
+  margin: 0;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #00D382;
+  color: white;
+  font-weight: bolder;
+}
+
+.saveButtonAmount {
+  font-size: 27px;
+  color: white;
+  margin-top: 27px;
+}
+
+.saveButtonSave {
+  margin-top: -8px;
+  color: white;
+}
+
+.ionSlides {
+  padding: 10px;
+  width: 100%;
+  height: 153px;
+  display: block;
+}
+
+ion-header-bar {
+  background-color: #3DB7B8 !important;
+}
+
+.tabs-striped.tabs-stable .tabs {
+  background-color: #3DB7B8;
+}
+
+.tabs .tab-item .icon.save-icon {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('../img/save-icon.png');
+  background-size:contain;
+  margin-top: -5px;
+}
+
+.tabs .tab-item .icon.prizes-icon {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 74%;
+  background-image: url('../img/prizes-icon.png');
+  background-size:contain;
+}
+
+.tabs .tab-item .icon.social-icon {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 79%;
+  background-image: url('../img/social-icon.png');
+  background-size:contain;
+}
+
+ion-tabs {
+  border-width: 1px;
+  border-color: white;
+}
+
+.cardsCollection {
+  margin: 0px auto;
+  padding: 10px;
+  margin-bottom: 128px;
+}
+
+.cards {
+  margin: 2px 0;
+}
+
+.cardsImg {
+  width: 100%;
+}
+
+.cardsImgPrize {
+  margin: 8px 12px;
+  width: 93%;
+}
+
+.cardsImgSocial {
+  margin: 8px 12px;
+  width: 93%;
+}
