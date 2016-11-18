@@ -5,7 +5,7 @@ angular.module('app.controllers', [])
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($rootScope, $scope, $stateParams, $http) {
 
-    $rootScope.moneydaysURL = 'http://10.128.19.187:8000';
+    $rootScope.moneydaysURL = 'http://moneydays.us';
     //$rootScope.totalSaved = 550;
     //$rootScope.goal = 2500;
     //$rootScope.progressToGoal = parseInt($rootScope.totalSaved/$rootScope.goal*100);
