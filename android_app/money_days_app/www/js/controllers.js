@@ -71,8 +71,6 @@ function ($rootScope, $scope, $stateParams, $http) {
         }).then(function successCallback(response){
           $rootScope.goal = response.data.results[0].amount;
           $rootScope.progressToGoal = parseInt($rootScope.totalSaved/$rootScope.goal*100);
-          //if $rootScope.progressToGoal == 100:
-
         },
         function errorCallback(response){
           console.log(response);

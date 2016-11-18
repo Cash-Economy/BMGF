@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/services.js"></script>
+    <!-- Only required for Tab projects w/ pages in multiple tabs
+    <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
+    -->
+    <!-- ANDROID_HOME=/home/sindhu/Android/Sdk/
+
+    JAVA_HOME=/usr/local/java/jdk1.8.0_111/jre
+     -->
+  </head>
+  <body ng-app="app" animation="slide-left-right-ios7">
+  <div>
+  <ion-side-menus enable-menu-with-back-views="false" data-componentid="side-menu21">
+    <ion-side-menu-content>
+      <ion-nav-bar class="bar-stable">
+        <ion-nav-back-button></ion-nav-back-button>
+        <ion-nav-buttons side="left">
+          <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+        </ion-nav-buttons>
+      </ion-nav-bar>
+      <ion-nav-view></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left" id="side-menu21">
+      <ion-header-bar class="bar-stable titleBar">
+        <div class="title">Menu</div>
+      </ion-header-bar>
+      <ion-content ng-controller="menuCtrl" has-bouncing="false" padding="false" class="side-menu-left has-header ">
+        <ion-list id="menu-list1" data-componentid="list1">
+          <ion-item class="item-icon-left" id="menu-list-item4" ui-sref="tabsController.savePage" menu-close="" data-componentid="list-item4">
+            <i class="icon ion-ionic"></i>Home</ion-item>
+          <ion-item class="item-icon-left" id="menu-list-item1" ui-sref="withdrawPage" menu-close="" data-componentid="list-item1">
+            <i class="icon ion-ionic"></i>Withdraw</ion-item>
+          <ion-item class="item-icon-left" id="menu-list-item2" ui-sref="shop" menu-close="" data-componentid="list-item2">
+            <i class="icon ion-ionic"></i>Shop</ion-item>
+          <ion-item class="item-icon-left" id="menu-list-item3" ui-sref="settings" menu-close="" data-componentid="list-item3">
+            <i class="icon ion-ionic"></i>Settings</ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-side-menu>
+  </ion-side-menus>
+</div>
+  </body>
+</html>
