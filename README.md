@@ -10,7 +10,7 @@ This is the repository for work in process artifacts for Autumn 2016 "Product St
 
 `moneydays` is a flexible, social savings application that is personalised not generic, and fun not stressful. It calculates optimum savings based on variable income; stimulates savings through proven savings lottery models; enacts those transactions; and transforms the economic dialogue into an optimistic one. With `moneydays`, anyone can save!
 
-[Our latest product demo video](https://vimeo.com/185554227)
+[Our latest product demo video](https://youtu.be/GARF19WtFGs)
 
 ## Our Team
 
