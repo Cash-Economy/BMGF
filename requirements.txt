@@ -3,7 +3,7 @@ CherryPy==3.2.2
 Markdown==2.4
 PAM==0.4.2
 Pillow==2.3.0
-Pygments==1.6
+Pygments==2.7.4
 Routes==2.0
 SQLAlchemy==1.0.13
 Twisted-Core==13.2.0
